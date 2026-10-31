@@ -1,0 +1,1182 @@
+{"lang": "ko", "text": "할머니께서 아침 식사를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "buvi nonushtadan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "kakek cuma makan beberapa sendok sarapan", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Toi do Ong di ve sinh", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "ko", "text": "식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "약 드신 것은 확인이 안 됐습니다", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ ăn được vài thìa bánh", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 진지를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ne", "text": "बिहान ११ बजे काम सुरु गरेँ", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "id", "text": "Makanan Oma habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरबुबाले रातिको खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Bobo juda kam siydi", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 간식을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ong chi an nua phan bua trua", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "id", "text": "nenek makan sebagian besar makan siang", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà chỉ ăn nửa phần bữa sáng", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신께서 점심을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Bobo pecheneni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "id", "text": "Ibu sudah camilan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ong di tieu rat it", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "머리가 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "vi", "text": "bà không chịu ăn cơm", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà không chịu ăn cơm", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba cu an sach bua trua", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "방문 시간은 11시입니다", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "vi", "text": "Ong an duoc vai thia bua sang", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba cu an sach com toi", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신께서 아침을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할아버지께서 식사를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "저녁을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Buvining sochini yuvdim", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले खाजा छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Onaxon yengil tamaddiga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba tinh day may lan", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "vi", "text": "Cu di ngoai ra nuoc", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "ko", "text": "어르신은 아침 식사를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Kakek cuma makan beberapa sendok camilan", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신은 아침을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Buvi pechene qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Onaxon nonushtaning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Beliau makan sebagian besar makan siang", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할머니께서 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 점심을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ông tỉnh dậy mấy lần", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "uz", "text": "Bobo pechenedan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "camilan beliau habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "id", "text": "beliau sudah makan siang", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà ăn được vài thìa bữa ăn", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ông chỉ ăn nửa phần cơm", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니는 노래를 따라 부르셨습니다", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "ko", "text": "할머니는 노래를 따라 부르심", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Bà bảo toàn thân nhức", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "vi", "text": "tôi đi tất cho cụ", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "bà cụ ăn được vài thìa cơm tối", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरबुबा बाथरुममा चिप्लिएर लड्नुभयो", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "vi", "text": "Ba cu an sach com", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cụ hát theo đài", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 밥을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Onaxon tushlikga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Buvi ikki-uch marta uyg'onib ketdi", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ ăn hầu hết bữa trưa", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà không chịu ăn bữa trưa", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà cụ ăn sạch bữa tối", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "bà khó ngủ cả đêm", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "id", "text": "saya mulai kerja pukul 14.00", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "ne", "text": "हजुरआमा दुई तीन पटक ब्यूँझनुभयो", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "vi", "text": "bà cụ không chịu ăn cơm tối", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरआमा गीत गाउनुभयो", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Beliau cuma makan beberapa sendok kue", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Saya memakaikan kaus kaki Beliau", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "Ông bảo người nhức", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले नास्ता लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Saya mencuci rambut Kakek", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "ko", "text": "어르신은 진지를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek mengeluh perut pegal", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "id", "text": "oma sudah kue", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ông không chịu ăn bữa sáng", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신께서 아침을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà cụ không chịu ăn bữa ăn", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvijon nonushtaga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "हजुरबुबाले खाजा आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 점심을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Toi di tat cho Cu", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "ne", "text": "उहाँ गीत गाउनुभयो", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "bà bảo ngực nhức", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "ne", "text": "उहाँ दुई तीन पटक ब्यूँझनुभयो", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "vi", "text": "Cụ ăn bữa sáng rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "bà cụ ăn sạch bữa trưa", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "काँध दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "ko", "text": "낮잠을 편하게 주무심", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "id", "text": "Saya mencuci pakaian Nenek", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "id", "text": "Oma sudah makan siang", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "onaxon tushlikdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "id", "text": "beliau mengeluh punggung pegal", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 진지를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ông chỉ ăn nửa phần bữa ăn", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek tidak makan makanan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरआमाले बिहानको खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Ibu cuma makan beberapa sendok makanan", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरबुबाका लुगा धोइदिएँ", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "id", "text": "Beliau makan kira-kira setengah makan siang", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "아침을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 점심 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ba bao bung nhuc", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 저녁을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba cu chi an nua phan bua sang", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "Beliau makan sebagian besar makan malam", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신은 점심을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "bobo pechenedan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ông ăn sạch bữa sáng", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Bobojon dorini vaqtida ichdi", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 식사를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Oma cuma makan beberapa sendok camilan", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Tôi đi tất cho Ông", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "Cụ ăn hầu hết cơm trưa", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할머니께서 아침 식사를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "bobojon ovqatga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong an sach banh", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ông chỉ ăn nửa phần bữa trưa", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "여기저기가 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "Boboning ovqatini mayda qilib to'g'radim", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "uz", "text": "Bobojon pechenening yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "ne", "text": "उहाँले बिहानको खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Toi giat quan ao cho Ba cu", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ko", "text": "어르신은 간식을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "아침을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba cu an do an nhe roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할아버지는 소변을 거의 안 보셨습니다", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "vi", "text": "bà cụ không chịu ăn bữa ăn", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba nho thuoc ra", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले खाना आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니께서 저녁 식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "id", "text": "ibu mengeluh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "Bobo pechenega qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Oma sudah kue", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "id", "text": "saya memotong kecil-kecil makanan beliau", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "vi", "text": "Bà bồn chồn không yên", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "uz", "text": "Buvijon kechki ovqatga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "Nenek makan kira-kira setengah nasi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 점심을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ông không chịu ăn cơm trưa", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "cụ ăn hầu hết cơm trưa", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할머니께서 아침을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Cu bon chon khong yen", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 밥을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvining ichi suvday keldi", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "vi", "text": "Tôi xoay người cho Ông nằm nghiêng", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाको कपाल धोइदिएँ", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "uz", "text": "buvijon yengil tamaddidan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba chi an nua phan bua an", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 점심 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Beliau sudah sarapan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할머니께서 진지를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Bobo nonushtadan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà đi tiểu bình thường", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "uz", "text": "Buvi yengil tamaddi qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Bà cụ không chịu ăn cơm tối", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신은 점심 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할아버지는 변이 물처럼 나왔음", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "uz", "text": "boboning kiyimlarini yuvdim", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "vi", "text": "Bà không chịu ăn đồ ăn nhẹ", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할아버지께서 밥을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong khong chiu an com", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "उहाँ बेचैन हुनुभयो", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "vi", "text": "Cu an hau het com trua", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà cụ ăn bữa ăn rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "bà bảo đầu gối nhức", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 점심을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "beliau memuntahkan obatnya", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "vi", "text": "Cu an hau het bua trua", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Boboning ichi suvday keldi", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "id", "text": "Nenek terpeleset dan jatuh di kamar mandi", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 간식을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 점심 식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신께서 약을 뱉으심", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "uz", "text": "bobo dori ichdimi yo'qmi bilmadim", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमा थकित र निराश देखिनुभयो", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "id", "text": "Kakek mengeluh kaki pegal", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 점심을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Bobojon pechene qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 저녁을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "id", "text": "makanan kakek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà cụ bảo đầu gối nhức", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "vi", "text": "ông ăn cơm trưa rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Tôi gội đầu cho Bà", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "vi", "text": "bà ăn hầu hết đồ ăn nhẹ", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरआमालाई शौचालयसम्म समातेर लगेँ", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "uz", "text": "buvijon taom qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 저녁을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신께서 점심 식사를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Beliau tidak makan makan malam sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "Beliau mengeluh lutut pegal", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ ăn đồ ăn nhẹ rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "id", "text": "Beliau mengeluh punggung pegal", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "id", "text": "beliau makan sebagian besar makan malam", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할아버지께서 간식을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할머니께서 점심을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Toi cat nho thuc an cho Cu", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "vi", "text": "ông chỉ ăn nửa phần bữa ăn", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "가슴이 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 점심 식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ong bao dau nhuc", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ ăn được vài thìa cơm", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Saya memiringkan badan Oma", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "id", "text": "Oma mengeluh seluruh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "bobojon yelkasi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 진지를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cụ bảo đầu nhức", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "vi", "text": "Ba chi an nua phan com", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "buvijon yengil tamaddining yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "uz", "text": "boboga paypoq kiydirdim", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "Cụ ăn hầu hết bữa sáng", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Cu an hau het bua sang", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ông ăn được vài thìa bữa trưa", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "ông không chịu ăn bữa sáng", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Makan malam Beliau habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Cụ chỉ ăn nửa phần bữa tối", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Onaxon dori ichdimi yo'qmi bilmadim", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "ne", "text": "जिउ दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबालाई शौचालयसम्म समातेर लगेँ", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "id", "text": "oma terbangun berkali-kali", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 아침을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할머니는 소변을 거의 안 보심", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 점심 식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Tôi cắt nhỏ thức ăn cho Ông", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "ko", "text": "점심을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Nenek makan kira-kira setengah sarapan", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신께서 아침을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "saya memiringkan badan oma", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Ông ăn sạch bánh", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ông ăn được vài thìa bữa sáng", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "ibu cuma makan beberapa sendok makanan", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "bà đi tiểu bình thường", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "uz", "text": "Buvi nonushtadan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "tôi gội đầu cho bà", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "ne", "text": "उहाँले खाना आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니께서 저녁을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "bà cụ ăn đồ ăn nhẹ rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할머니께서 밥을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Ibu buang air kecil lancar", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "id", "text": "Kakek makan sebagian besar nasi", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Bobo kechki ovqatga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Bobo dori ichdimi yo'qmi bilmadim", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "id", "text": "Kakek tampak cemas terus", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "ko", "text": "몸을 옆으로 돌려 눕혀 드림", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "ko", "text": "진지를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "beliau mengeluh lutut pegal", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमा पिसाब निकै कम गर्नुभयो", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 점심 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Ibu makan kira-kira setengah camilan", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "id", "text": "Oma tampak lesu dan murung", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "vi", "text": "Ông bảo chân nhức", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "vi", "text": "Ông không chịu ăn cơm tối", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "beliau makan kira-kira setengah makan malam", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "배가 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "id", "text": "beliau sudah makanan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cụ khó ngủ cả đêm", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "ne", "text": "उहाँले भात दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "oma terpeleset dan jatuh di kamar mandi", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "ne", "text": "उहाँले भात छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 점심 식사를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ba cu bao bung nhuc", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "ko", "text": "빨래를 해 드림", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ko", "text": "어르신은 저녁을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신께서 아침을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 간식을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba cu an hau het bua trua", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà cụ ăn sạch cơm tối", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ko", "text": "가슴이 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ong an sach com toi", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ne", "text": "टाउको दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "ko", "text": "어르신은 아침 식사를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "उहाँले रातिको खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरबुबालाई मोजा लगाइदिएँ", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "Ba cu chi an nua phan com toi", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Onaxon nonushtaga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "bobojon kechki ovqatdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Bobojon yengil tamaddidan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Cu chi an nua phan bua toi", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "ông chỉ ăn nửa phần cơm", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 아침 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "beliau cuma makan beberapa sendok nasi", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Beliau cuma makan beberapa sendok sarapan", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "bobojon tushlikning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Cu an sach bua an", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरबुबाले दिउँसोको खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "पेट दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "id", "text": "Beliau makan sebagian besar nasi", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba cu an banh roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "id", "text": "Saya mulai kerja pukul 16", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "vi", "text": "Bà uống thuốc đầy đủ", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "uz", "text": "Buvijon oyog'i sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले बेलुकाको खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "vi", "text": "ông ăn hầu hết bữa ăn", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 저녁을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Toi di tat cho Ong", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "Bà ăn được vài thìa bữa ăn", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "buvijon yengil tamaddidan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "반찬을 잘게 잘라 드렸어요", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "vi", "text": "Toi xoay nguoi cho Ong nam nghieng", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Ba cu an sach bua toi", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Toi giat quan ao cho Cu", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "id", "text": "Kakek tidak makan kue sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Nenek cuma makan beberapa sendok makan malam", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할머니께서 밥을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "ông đi tiểu rất ít", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 저녁을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "id", "text": "nenek terpeleset dan jatuh di kamar mandi", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "id", "text": "kakek cuma makan beberapa sendok makan siang", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "kakek makan sebagian besar sarapan", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "खुट्टा दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 진지를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek minum obat tepat waktu", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "id", "text": "ibu makan kira-kira setengah camilan", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Bà khó ngủ cả đêm", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "vi", "text": "Bà ăn sạch cơm", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Bobojon ovqatga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 간식을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "vi", "text": "bà ăn cơm tối rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "uz", "text": "bobo tushlikga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Bobo ovqatga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 아침 식사를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "हजुरआमा दिउँसो आरामसँग सुत्नुभयो", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Ba an duoc vai thia bua toi", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba bon chon khong yen", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाका लुगा धोइदिएँ", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "id", "text": "Kakek makan kira-kira setengah makan siang", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Bobojon taomni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "nenek makan kira-kira setengah sarapan", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "허리가 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "vi", "text": "bà bảo chân nhức", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "uz", "text": "buvijon badani sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ne", "text": "उहाँ थकित र निराश देखिनुभयो", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले नास्ता छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ong ngu trua ngon giac", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Cụ bảo lưng nhức", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "ko", "text": "어르신은 아침 식사를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할아버지께서 아침 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "हजुरआमाले भात लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong di ngoai ra nuoc", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà ăn được vài thìa cơm tối", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà tỉnh dậy mấy lần", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "uz", "text": "Buvi qorni sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "vi", "text": "Cu bao dau nhuc", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "uz", "text": "buvi qorni sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "saya memapah kakek ke kamar mandi", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "id", "text": "kakek mengeluh perut pegal", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "id", "text": "Camilan Kakek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "ông bảo ngực nhức", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "ko", "text": "어르신은 아침 식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Bobojon taomning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong bao nguc nhuc", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "id", "text": "Sarapan Oma habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Buvijon sirpanib ketishiga sal qoldi", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "uz", "text": "buvi taom qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Onaxon pecheneni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Bà chỉ ăn nửa phần bữa tối", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà bảo ngực nhức", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 진지를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong an com toi roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "id", "text": "nenek sudah nasi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "bà suýt trượt chân", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "vi", "text": "bà cụ ăn sạch đồ ăn nhẹ", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 저녁 식사를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "vi", "text": "cụ đi tiểu bình thường", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ ăn được vài thìa cơm trưa", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "ông ăn bữa trưa rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरआमा बाथरुममा चिप्लिएर लड्नुभयो", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "ko", "text": "양말을 신겨 드림", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "Cu bao lung nhuc", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "vi", "text": "Bà trượt chân ngã trong nhà tắm", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "ne", "text": "उहाँले खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvi pechenedan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "uz", "text": "buvi juda xavotirlandi", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "uz", "text": "buvijon nonushtani oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 간식을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba chi an nua phan com trua", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "식사를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरआमाको खाना सानो सानो टुक्रा पारिदिएँ", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "vi", "text": "Ong khong chiu an bua sang", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "ông ăn sạch bữa sáng", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà trông mệt mỏi chán nản", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "vi", "text": "Bà chỉ ăn nửa phần cơm tối", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할아버지께서 아침을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà cụ ăn bữa ăn rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지는 소변을 거의 안 보심", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "할아버지는 잠이 안 온다고 하셨습니다", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "uz", "text": "Buvijon yengil tamaddining yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Cụ ăn sạch bữa ăn", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 점심을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबाले नास्ता आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba an duoc vai thia banh", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba an sach com", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà ăn được vài thìa bánh", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "ông ăn sạch cơm tối", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "id", "text": "Saya memotong kecil-kecil makanan Beliau", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "id", "text": "Saya mulai kerja pukul 14.00", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "vi", "text": "bà cụ uống thuốc đầy đủ", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले नास्ता अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "아침을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할아버지께서 간식을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "kakek tidak makan makanan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 밥을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 밥을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "उहाँले बेलुकाको खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà ăn cơm tối rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "bà cụ bảo bụng nhức", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "ko", "text": "어르신은 밥을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvi taom qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà ăn bữa tối rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Bobojon badani sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "Onaxon siydik normal chiqardi", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "ko", "text": "진지를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 간식을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba bao toan than nhuc", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 식사를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà cụ chỉ ăn nửa phần bánh", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Bà bảo chân nhức", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ko", "text": "어르신은 변이 물처럼 나왔음", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "vi", "text": "Cụ ăn hầu hết bữa trưa", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबा रातभर छटपट गर्दै सुत्नुभयो", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "uz", "text": "Bobo tushlikdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "낮잠을 편하게 주무셨습니다", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Thời gian thăm 9:00", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "ko", "text": "어르신께서 진지를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba khong chiu an bua sang", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Buvi ovqatdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "약 드신 것은 확인이 안 됐음", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "uz", "text": "Buvijon yengil tamaddini oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할머니께서 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरबुबाले बेलुकाको खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "cụ ăn sạch bánh", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "id", "text": "Oma makan sebagian besar makanan", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba cu an sach do an nhe", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "cụ trông mệt mỏi chán nản", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "ko", "text": "저녁을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신은 점심을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "ibu buang air kecil lancar", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "uz", "text": "Buvijonning kiyimlarini yuvdim", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ko", "text": "머리가 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 밥을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "cụ hát theo đài", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "id", "text": "kakek mengeluh kaki pegal", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "uz", "text": "Boboni yonboshiga yotqizdim", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Cu di tieu binh thuong", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "id", "text": "saya mencuci rambut kakek", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "ko", "text": "아침 식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "점심을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "ông bảo chân nhức", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ko", "text": "몸을 옆으로 돌려 눕혀 드렸어요", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Cụ ngủ trưa ngon giấc", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "id", "text": "kue nenek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobojon kechki ovqatdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "id", "text": "Beliau mengeluh pinggang pegal", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "id", "text": "Ibu hampir terpeleset", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "vi", "text": "bà cụ bảo toàn thân nhức", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "id", "text": "oma ikut bernyanyi", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Ong tinh day may lan", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले बेलुकाको खाना आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ông ăn được vài thìa đồ ăn nhẹ", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Onaxon holsiz va tushkun ko'rindi", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "uz", "text": "Bobo qo'shiq aytdi", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Ba an duoc vai thia bua sang", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba chi an nua phan bua sang", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "उहाँले खाजा सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरबुबाले खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरआमाले दिउँसोको खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신께서 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Saya mencuci rambut Ibu", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "vi", "text": "Bà ăn bánh rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "uz", "text": "buvijon nonushtaga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Beliau makan kira-kira setengah nasi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong khong chiu an com trua", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "nenek jarang buang air kecil", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "vi", "text": "Bà không chịu ăn bánh", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "ông bảo đầu nhức", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "uz", "text": "Bobojon tushlik qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Toi xoay nguoi cho Ba cu nam nghieng", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Cu ngu trua ngon giac", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "uz", "text": "bobojon dorini vaqtida ichdi", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 저녁을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할머니께서 진지를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "kakek minum obat tepat waktu", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "vi", "text": "Bà nhổ thuốc ra", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "uz", "text": "Bobojon boshi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "vi", "text": "Ba an hau het do an nhe", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "uz", "text": "buvijonni hojatxonagacha suyab bordim", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "uz", "text": "Boboga paypoq kiydirdim", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "bà cụ ăn bữa sáng rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 변이 물처럼 나왔습니다", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "uz", "text": "Onaxon nonushta qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Nenek tidak makan makan siang sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà hát theo đài", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "uz", "text": "Buvi tizzasi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "uz", "text": "Buvijonning ovqatini mayda qilib to'g'radim", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "id", "text": "Nenek tampak cemas terus", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "ko", "text": "할머니는 화장실에서 미끄러져 넘어지심", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "uz", "text": "bobo pechenega qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरबुबा पानीजस्तो दिसा गर्नुभयो", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "vi", "text": "cụ ăn sạch cơm trưa", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신은 진지를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cu an sach banh", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरआमा पानीजस्तो दिसा गर्नुभयो", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "vi", "text": "Bà chỉ ăn nửa phần đồ ăn nhẹ", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba cu khong chiu an bua an", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "buvi yengil tamaddi qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ong bao nguoi nhuc", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ne", "text": "घुँडा दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "id", "text": "Kakek makan kira-kira setengah sarapan", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "oma makan sebagian besar kue", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरबुबाले बिहानको खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "उहाँले रातिको खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ong chi an nua phan com", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvi kechki ovqat qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "uz", "text": "bobojon tushlik qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "id", "text": "kakek tidak makan makan siang sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "उहाँले बेलुकाको खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "아침을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "아침을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Buvijon pechenega qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "bà cụ chỉ ăn nửa phần cơm tối", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "id", "text": "Tidak tahu Ibu sudah minum obat atau belum", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "vi", "text": "Bà bảo đầu gối nhức", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "vi", "text": "Ong bao vai nhuc", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "uz", "text": "Buvijon ko'kragi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "vi", "text": "tôi gội đầu cho ông", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "uz", "text": "Bobojon dorini tupurib tashladi", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "uz", "text": "Bobo pechenedan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba an banh roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 저녁 식사를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ne", "text": "उहाँले दिउँसोको खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà hát theo đài", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "cụ ăn đồ ăn nhẹ rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할머니는 말씀이 평소보다 적으셨습니다", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाको कपाल धोइदिएँ", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "ne", "text": "शरीर दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "vi", "text": "Cụ không chịu ăn bữa trưa", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबाले खाजा अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Buvi tushlikdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ong truot chan nga trong nha tam", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 진지를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek sudah makanan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba cu chi an nua phan banh", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Thoi gian tham 9:00", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "id", "text": "beliau sudah sarapan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "허리가 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "onaxon siydik normal chiqardi", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "vi", "text": "Ba bao chan nhuc", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "id", "text": "Ibu cuma makan beberapa sendok makan malam", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할머니께서 저녁 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "saya memotong kecil-kecil makanan nenek", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 점심을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "잠이 안 온다고 하셨습니다", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "id", "text": "saya memiringkan badan beliau", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Bà ăn được vài thìa bữa tối", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "onaxon tun bo'yi uxlamadi", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "vi", "text": "Ba trong met moi chan nan", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "vi", "text": "Tôi gội đầu cho Ông", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "id", "text": "Oma mengeluh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 아침 식사를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "makan siang kakek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबाले खाजा सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobo taomdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "화장실까지 부축해 드림", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "vi", "text": "bà chỉ ăn nửa phần cơm trưa", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà ăn được vài thìa bữa tối", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Boboning sochini yuvdim", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "vi", "text": "Cu an duoc vai thia do an nhe", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Kue Nenek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरबुबा पिसाब सामान्य गर्नुभयो", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "uz", "text": "buvi dorini tupurib tashladi", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "uz", "text": "bobo tushlikning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà không chịu ăn bữa sáng", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 점심 식사를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà bảo lưng nhức", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "ko", "text": "머리를 감겨 드렸습니다", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "vi", "text": "Cụ trông mệt mỏi chán nản", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "uz", "text": "Bobojon tushlikdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "ông chỉ ăn nửa phần bữa trưa", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Cụ ăn hầu hết cơm tối", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ong an sach bua toi", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba cu an bua sang roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "kakek tidak makan camilan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "uz", "text": "bobo pechenedan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니는 말씀이 평소보다 적으심", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "vi", "text": "Ba khong chiu an do an nhe", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobojon nonushtani oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Cụ ăn cơm rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "bà uống thuốc đầy đủ", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "vi", "text": "Tôi giặt quần áo cho Bà cụ", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "vi", "text": "bà cụ chỉ ăn nửa phần bữa sáng", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba an com toi roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Cụ bảo người nhức", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "id", "text": "Saya memiringkan badan Beliau", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Ông ngủ trưa ngon giấc", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Ong khong chiu an bua toi", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "Ibu tidak makan makan malam sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà ăn bữa ăn rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Nenek makan kira-kira setengah kue", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobo ovqatning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 저녁 식사를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ko", "text": "화장실까지 부축해 드렸어요", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "uz", "text": "buvijonning kiyimlarini yuvdim", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 밥을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "아침 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba cu an duoc vai thia banh", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba an sach bua an", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cụ đi ngoài ra nước", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "vi", "text": "Tôi đi tất cho Cụ", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "id", "text": "kakek tidur siang dengan tenang", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "ko", "text": "어르신은 저녁 식사를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba cu an bua an roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Ibu tidak makan makanan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "onaxon nonushta qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ong an bua trua roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할머니께서 점심 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà chỉ ăn nửa phần bữa ăn", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 간식을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "id", "text": "oma sudah sarapan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "아침을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "저녁을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "id", "text": "Kakek tidak makan camilan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 약을 뱉으셨습니다", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले खाजा दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "nenek makan kira-kira setengah nasi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ông không chịu ăn cơm", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong nho thuoc ra", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ ăn bữa sáng rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할아버지께서 진지를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 아침 식사를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Ibu mengeluh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "Bobo tushlikning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà ăn được vài thìa bữa sáng", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할머니께서 저녁 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "Kakek mengeluh bahu pegal", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "ko", "text": "어르신은 가족을 찾으며 초조해하셨습니다", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "vi", "text": "Ông bảo đầu nhức", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "vi", "text": "Ông ăn sạch đồ ăn nhẹ", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "id", "text": "Nenek sudah kue", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "id", "text": "Nenek makan kira-kira setengah makanan", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "cụ ngủ trưa ngon giấc", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "id", "text": "Kakek cuma makan beberapa sendok sarapan", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà cụ ăn sạch cơm", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Nenek makan sebagian besar camilan", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신은 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Bobo nonushtadan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Buvijon ovqat qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvini hojatxonagacha suyab bordim", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 아침 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà cụ uống thuốc đầy đủ", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "uz", "text": "bobojon badani sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "vi", "text": "Cu bao nguoi nhuc", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 점심 식사를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Onaxon tushlikdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "다리가 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ko", "text": "할머니는 소변을 거의 안 보셨습니다", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "vi", "text": "Cu kho ngu ca dem", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "vi", "text": "Cụ ăn đồ ăn nhẹ rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Buvijon taom qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "उहाँ दिउँसो आरामसँग सुत्नुभयो", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "ko", "text": "소변을 잘 보심", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "id", "text": "Saya mencuci pakaian Oma", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 저녁을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Cu an hau het com toi", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरआमाले बिहानको खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "oma hampir terpeleset", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "id", "text": "Makan siang Ibu habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ông ăn sạch bữa tối", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "ông ngủ trưa ngon giấc", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "ko", "text": "어깨가 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "uz", "text": "Buvijon nonushtani oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "Buvi siydik normal chiqardi", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "id", "text": "Nenek tidak makan kue sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Oma mengeluh dada pegal", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "vi", "text": "Ba khong chiu an com", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek buang air besar encer", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "vi", "text": "Ong bao chan nhuc", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ ăn cơm rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cu an sach com trua", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ông ăn bữa trưa rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ba an duoc vai thia bua an", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "bà ăn sạch cơm", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek mengeluh lutut pegal", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "id", "text": "ibu makan kira-kira setengah makanan", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "여기저기가 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "id", "text": "makan siang ibu habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신께서 점심을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ong an duoc vai thia bua toi", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신은 밥을 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà cụ ăn sạch bữa trưa", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Oma makan kira-kira setengah kue", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "id", "text": "oma mengeluh dada pegal", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "uz", "text": "Buvijon beli sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "uz", "text": "buvi ovqatdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 저녁을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "bobojon nonushtani oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba chi an nua phan com toi", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할아버지께서 아침을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba suyt truot chan", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 저녁을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरआमाले बेलुकाको खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Buvijon ikki-uch marta uyg'onib ketdi", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 아침 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Cu chi an nua phan com trua", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ong khong chiu an banh", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Bà cụ không chịu ăn đồ ăn nhẹ", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरबुबाले दिउँसोको खाना आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "cụ ăn bữa sáng rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Beliau memuntahkan obatnya", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "uz", "text": "buvijon ko'kragi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "uz", "text": "Soat 17:00 da ishni boshladim", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "id", "text": "ibu tidak makan makanan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 식사를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba an bua toi roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba an duoc vai thia com toi", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरबुबाले समयमै औषधि खानुभयो", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ bảo bụng nhức", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "vi", "text": "Ông ăn sạch cơm tối", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ne", "text": "१३ बजे काम सुरु गरेँ", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "vi", "text": "Cu khong chiu an bua trua", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할아버지께서 점심 식사를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신께서 진지를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरबुबाले नास्ता छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ông trượt chân ngã trong nhà tắm", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "uz", "text": "buvi siydik normal chiqardi", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "vi", "text": "Ba bao lung nhuc", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "ne", "text": "उहाँले बिहानको खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "할아버지께서 아침 식사를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "bobo tushlikdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबाले रातिको खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할머니께서 밥을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek makan sebagian besar sarapan", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba an hau het bua toi", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "id", "text": "Nenek makan sebagian besar kue", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "vi", "text": "bà ăn bữa tối rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ông ăn hầu hết cơm", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 아침을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "nenek cuma makan beberapa sendok kue", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 점심을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Tôi xoay người cho Bà cụ nằm nghiêng", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "uz", "text": "Boboning kiyimlarini yuvdim", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ko", "text": "아침 식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "buvi taomdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니께서 간식을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Oma sudah sarapan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 점심 식사를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Bà chỉ ăn nửa phần cơm", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba di tieu binh thuong", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "ko", "text": "아침 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 밥을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Beliau makan sebagian besar camilan", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरआमाले खाजा लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "저녁 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Onaxon yelkasi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले दिउँसोको खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "kakek mengeluh bahu pegal", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "ko", "text": "할아버지는 소변을 잘 보심", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "id", "text": "Kakek tidak makan makan siang sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "buvining sochini yuvdim", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "uz", "text": "Bobojon taomdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ông ăn hầu hết bữa tối", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "id", "text": "beliau makan kira-kira setengah nasi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "boboning sochini yuvdim", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "uz", "text": "Onaxon sirpanib ketishiga sal qoldi", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "id", "text": "Beliau sudah makan siang", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신은 저녁을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरबुबाले बेलुकाको खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Tôi cắt nhỏ thức ăn cho Cụ", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "vi", "text": "Ông bảo vai nhức", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "ko", "text": "몸이 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "Bobo yengil tamaddidan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Bà ăn hầu hết bữa tối", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Buviga paypoq kiydirdim", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "ko", "text": "어르신은 밥을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरबुबाले भात आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "कम्मर दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले दिउँसोको खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "id", "text": "oma makan kira-kira setengah makan malam", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà cụ bảo vai nhức", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "id", "text": "Nenek cuma makan beberapa sendok kue", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "oma mengeluh seluruh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ne", "text": "उहाँले बेलुकाको खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신께서 식사를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cu an do an nhe roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 간식을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "저녁을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ko", "text": "방문 시간은 17시 30분입니다", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "vi", "text": "Ba khong chiu an banh", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "빨래를 해 드렸어요", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले नास्ता सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "oma makan kira-kira setengah kue", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ông ăn hầu hết bữa ăn", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरबुबाले नास्ता दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ba cu khong chiu an com toi", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Bobojon tushlikni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Beliau mengeluh kepala pegal", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "vi", "text": "ông ăn sạch bữa trưa", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Buvi juda xavotirlandi", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "vi", "text": "ông ăn hầu hết cơm", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "onaxon sirpanib ketishiga sal qoldi", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 간식을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신은 아침 식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Nenek sudah nasi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "saya memapah oma ke kamar mandi", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "uz", "text": "Onaxon ovqatning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 저녁을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "ne", "text": "उहाँले नास्ता दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Nenek jarang buang air kecil", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "어르신은 점심 식사를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबाले बिहानको खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà cụ chỉ ăn nửa phần cơm tối", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरआमाले रातिको खाना आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Onaxon ovqatni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba khong chiu an bua trua", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신은 미끄러질 뻔하심", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "vi", "text": "Ba cu an duoc vai thia bua trua", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ong an hau het com", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvijon qorni sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "id", "text": "Makan siang Kakek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ba cu an duoc vai thia com", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 점심을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "id", "text": "nenek makan kira-kira setengah makanan", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Thời gian thăm 8 giờ", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले भात अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरआमाले नास्ता आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Ông đi ngoài ra nước", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले दिउँसोको खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Oma terpeleset dan jatuh di kamar mandi", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "ne", "text": "उहाँले भात आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong an sach bua trua", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "उहाँले रातिको खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba truot chan nga trong nha tam", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "vi", "text": "Ba khong chiu an bua toi", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "saya mulai kerja pukul 16", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "vi", "text": "Ba an bua an roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 미끄러질 뻔하셨습니다", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 점심 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "tôi xoay người cho ông nằm nghiêng", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "ko", "text": "반찬을 잘게 잘라 드림", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "ko", "text": "할아버지는 잠이 안 온다고 하심", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 점심을 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신께서 저녁을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà cụ ăn bánh rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "vi", "text": "cụ khó ngủ cả đêm", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 진지를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 점심 식사를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할아버지는 소변을 잘 보셨습니다", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ chỉ ăn nửa phần bữa sáng", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Chua ro Ba cu uong thuoc hay chua", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "vi", "text": "Cu hat theo dai", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाको खाना सानो सानो टुक्रा पारिदिएँ", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "ko", "text": "미끄러질 뻔하셨습니다", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "ko", "text": "저녁을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Soat 17 da ishni boshladim", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "id", "text": "Oma makan sebagian besar sarapan", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "beliau cuma makan beberapa sendok kue", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Makanan Kakek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "cụ ăn hầu hết cơm tối", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할머니께서 점심 식사를 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할아버지께서 진지를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Ibu mengeluh bahu pegal", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "vi", "text": "Ong an hau het bua toi", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "vi", "text": "cụ chỉ ăn nửa phần bữa tối", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Buvi hammomda sirpanib yiqildi", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "vi", "text": "Ong an sach do an nhe", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba cu bao dau goi nhuc", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "vi", "text": "bà chỉ ăn nửa phần cơm tối", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ông ăn cơm tối rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "ko", "text": "소변을 잘 보셨습니다", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "id", "text": "oma mengeluh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "vi", "text": "Ba chi an nua phan bua toi", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ông nhổ thuốc ra", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबा पिसाब निकै कम गर्नुभयो", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "uz", "text": "Buvijon pechenedan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "uz", "text": "buvijon boshi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 점심을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Nenek ikut bernyanyi", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "vi", "text": "Ông không chịu ăn bánh", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobo juda xavotirlandi", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "vi", "text": "Ba cu khong chiu an do an nhe", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरआमाले रातिको खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "uz", "text": "bobo kechki ovqatni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어깨가 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "id", "text": "kue ibu habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba cu bao toan than nhuc", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "id", "text": "Camilan Beliau habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ong an hau het banh", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 밥을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 아침 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "tidak tahu ibu sudah minum obat atau belum", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "vi", "text": "Ba uong thuoc day du", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "id", "text": "Beliau makan kira-kira setengah makan malam", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "uz", "text": "buvi ovqatdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니께서 밥을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ông ăn được vài thìa bữa tối", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà không chịu ăn bữa tối", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Buvijon kechki ovqatning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "bà không chịu ăn bữa trưa", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà nhổ thuốc ra", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "uz", "text": "Buvi dorini tupurib tashladi", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "id", "text": "Kakek mengeluh seluruh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "id", "text": "Beliau sudah makanan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ông ăn cơm trưa rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Oma terbangun berkali-kali", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "ne", "text": "उहाँले खाजा लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "id", "text": "ibu sudah camilan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobojon kechki ovqatdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신은 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvijon tushlikdan keyin yaxshi dam olib uxladi", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "ko", "text": "미끄러질 뻔하심", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "vi", "text": "Ông bảo ngực nhức", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 점심을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Cụ ăn sạch bánh", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할아버지께서 진지를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 가족을 찾으며 초조해하심", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "id", "text": "Kakek mengeluh punggung pegal", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "vi", "text": "Ba hat theo dai", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "id", "text": "saya mencuci pakaian nenek", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "vi", "text": "cụ ăn sạch bữa ăn", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "हजुरआमाले खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "다리가 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमा बेचैन हुनुभयो", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "id", "text": "Sarapan Kakek habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 점심을 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Beliau makan kira-kira setengah camilan", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Buvijon tizzasi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "uz", "text": "Buvi taomdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 점심 식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할머니께서 식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "저녁을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Buvijon yengil tamaddidan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할머니께서 식사를 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "makanan oma habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니께서 간식을 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Buvijon taomni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니께서 밥을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "buvijon oyog'i sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "id", "text": "Nasi Ibu habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "ông ăn hầu hết bánh", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "uz", "text": "buvijon kechki ovqatning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할아버지께서 간식을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Buvi pechenening yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할머니께서 밥을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba chi an nua phan do an nhe", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरबुबाले खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà cụ ăn được vài thìa cơm tối", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरआमाले बिहानको खाना आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신께서 저녁 식사를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ông ăn hầu hết bánh", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신은 아침 식사를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Beliau tidak makan sarapan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "हजुरआमा चिप्लिन लाग्नुभयो", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "vi", "text": "Ông đi tiểu rất ít", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 밥을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba kho ngu ca dem", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "vi", "text": "Ong khong chiu an com toi", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할아버지께서 아침을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "배가 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "vi", "text": "Cụ đi tiểu bình thường", "cls": "EXCRETION", "label": "NORMAL", "meal_time": null}
+{"lang": "id", "text": "Saya memapah Oma ke kamar mandi", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "id", "text": "beliau tidak makan makan malam sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "ông không chịu ăn bánh", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरआमाले खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà cụ ăn được vài thìa bữa trưa", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Kakek cuma makan beberapa sendok makan siang", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신께서 점심을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신은 식사를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvini yonboshiga yotqizdim", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "id", "text": "Saya memakaikan kaus kaki Kakek", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "uz", "text": "buvijon yengil tamaddini oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Tôi giặt quần áo cho Cụ", "cls": "SUPPORT", "label": "CLEAN", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 아침을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "bobojon tushlikni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबाले औषधि थुकिदिनुभयो", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "id", "text": "Nenek mengeluh kaki pegal", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ne", "text": "उहाँले रातिको खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Bobojon nonushtadan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Cu an bua sang roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "buvijon tushlikdan keyin yaxshi dam olib uxladi", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "ne", "text": "उहाँले बेलुकाको खाना आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "vi", "text": "bà cụ bảo đầu gối nhức", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "ko", "text": "식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "thời gian thăm 9:00", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "vi", "text": "cụ ăn hầu hết bữa sáng", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "kakek mengeluh seluruh badan pegal", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ne", "text": "उहाँ रातभर छटपट गर्दै सुत्नुभयो", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "uz", "text": "Bobo kechki ovqatni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Onaxon oyog'i sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "LEG", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले औषधि थुकिदिनुभयो", "cls": "MEDICATION", "label": "REFUSED", "meal_time": null}
+{"lang": "vi", "text": "Ba cu an com roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "bobojon tushlikdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "औषधिबारे थाहा पाउन सकिनँ", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "vi", "text": "Toi goi dau cho Ong", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Cu an com roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "아침을 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "nasi ibu habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Nenek tidak bisa tidur semalaman", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "vi", "text": "Cụ ăn được vài thìa đồ ăn nhẹ", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신께서 진지를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "무릎이 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "ne", "text": "उहाँले खाजा अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "id", "text": "Oma makan sebagian besar kue", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Buvijon boshi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "HEAD", "meal_time": null}
+{"lang": "id", "text": "Oma ikut bernyanyi", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले बेलुकाको खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "id", "text": "Nasi Beliau habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "nenek tidak makan makan siang sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Cụ chỉ ăn nửa phần cơm trưa", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà chỉ ăn nửa phần bữa sáng", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신께서 간식을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할아버지께서 저녁을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "vi", "text": "tôi xoay người cho bà cụ nằm nghiêng", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Toi cat nho thuc an cho Ong", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "id", "text": "makan malam beliau habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "ông không chịu ăn cơm trưa", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "buvi pechenedan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신은 간식을 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Buvijon badani sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "vi", "text": "Ong an sach bua sang", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "buvijon qorni sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "vi", "text": "Bà chỉ ăn nửa phần cơm trưa", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Thoi gian tham 8 gio", "cls": "VISIT", "label": null, "meal_time": null}
+{"lang": "uz", "text": "Bobo taomga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kue Ibu habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Bà bảo bụng nhức", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "id", "text": "Saya memapah Kakek ke kamar mandi", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "ne", "text": "उहाँले बेलुकाको खाना सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "uz", "text": "bobo qo'shiq aytdi", "cls": "MOOD", "label": "GOOD", "meal_time": null}
+{"lang": "uz", "text": "Buvijon nonushtaning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "양말을 신겨 드렸습니다", "cls": "SUPPORT", "label": "DRESS", "meal_time": null}
+{"lang": "vi", "text": "Bà cụ bảo toàn thân nhức", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ko", "text": "아침 약을 드시는 것을 봤습니다", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 남김없이 드셨습니다", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ông ăn sạch bữa trưa", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "id", "text": "ibu hampir terpeleset", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "uz", "text": "Bobo tushlikga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신은 진지를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Ibu makan kira-kira setengah makanan", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "buvi kechki ovqat qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신은 밥을 거부하심", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cụ ăn sạch cơm trưa", "cls": "MEAL", "label": "ALL", "meal_time": "LUNCH"}
+{"lang": "ne", "text": "हजुरबुबालाई छेउतिर फर्काएर सुताइदिएँ", "cls": "SUPPORT", "label": "REPOSITION", "meal_time": null}
+{"lang": "vi", "text": "Chua ro Cu uong thuoc hay chua", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "uz", "text": "Bobojon taomga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvijonni hojatxonagacha suyab bordim", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "id", "text": "Saya memotong kecil-kecil makanan Nenek", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "uz", "text": "Bobojon yelkasi sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "vi", "text": "tôi cắt nhỏ thức ăn cho ông", "cls": "SUPPORT", "label": "MEAL_ASSIST", "meal_time": null}
+{"lang": "ko", "text": "할아버지는 변이 물처럼 나왔습니다", "cls": "EXCRETION", "label": "LOOSE", "meal_time": null}
+{"lang": "uz", "text": "onaxon ovqatning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할아버지께서 점심을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Bobojon ovqatdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "할머니께서 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Nenek minum obat tepat waktu", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "uz", "text": "Buvijon yengil tamaddidan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "id", "text": "Ibu tidak makan nasi sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Buvi beli sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "uz", "text": "bobojon nonushtadan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "ढाड दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "ko", "text": "아침을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신은 저녁 식사를 반쯤 드셨습니다", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Bobojon hamma yeri sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "onaxon tushlikga qo'l urmadi", "cls": "MEAL", "label": "NONE", "meal_time": "LUNCH"}
+{"lang": "id", "text": "Oma makan kira-kira setengah makan malam", "cls": "MEAL", "label": "HALF", "meal_time": "DINNER"}
+{"lang": "id", "text": "Ibu mengeluh pinggang pegal", "cls": "DISCOMFORT", "label": "BACK", "meal_time": null}
+{"lang": "uz", "text": "Buvi kechki ovqatdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "id", "text": "Nenek tampak lesu dan murung", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "vi", "text": "Bà chỉ ăn nửa phần bữa ăn", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "저녁 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "ne", "text": "छाती दुखेको गुनासो गर्नुभयो", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "vi", "text": "ông ăn hầu hết bữa tối", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ko", "text": "식사를 아주 조금만 드셨습니다", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 간식을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobo ovqatdan juda kam yedi", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Beliau cuma makan beberapa sendok nasi", "cls": "MEAL", "label": "LITTLE", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ong chi an nua phan bua an", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 아침 약을 드시는 것을 봤습니다", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "ko", "text": "아침 약을 드시는 것을 봤음", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "uz", "text": "Onaxon tun bo'yi uxlamadi", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "ko", "text": "어르신은 밥을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Bobojon nonushta qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "ông ăn cơm tối rồi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "bà không chịu ăn bữa tối", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신께서 점심을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "uz", "text": "Buvijon holsiz va tushkun ko'rindi", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 아침 식사를 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "buvijon ovqat qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "ne", "text": "उहाँले खाजा आधा मात्र खानुभयो", "cls": "MEAL", "label": "HALF", "meal_time": "SNACK"}
+{"lang": "id", "text": "Kakek sudah camilan", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ne", "text": "हजुरआमाले भात अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Beliau sudah makan malam", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "ne", "text": "हजुरबुबाले बेलुकाको खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "uz", "text": "bobojon taomni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Bà ăn hầu hết đồ ăn nhẹ", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Chưa rõ Bà cụ uống thuốc hay chưa", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "uz", "text": "Buvi ovqatdan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 간식을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "uz", "text": "Bobojon tushlikning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할머니께서 식사를 반쯤 드심", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "oma makan sebagian besar sarapan", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "id", "text": "Oma hampir terpeleset", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "ko", "text": "할머니는 자다가 몇 번 일어나셨습니다", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "ko", "text": "어르신은 아침을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà ăn sạch bữa ăn", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "bà cụ ăn được vài thìa bữa trưa", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ong an duoc vai thia do an nhe", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ong an duoc vai thia bua trua", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ba bao nguc nhuc", "cls": "DISCOMFORT", "label": "CHEST", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबाले बिहानको खाना छुनुभएन", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "हजुरबुबाले बिहानको खाना अलिकति मात्र छोड्नुभयो", "cls": "MEAL", "label": "MOST", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Tôi đỡ Ông đi vệ sinh", "cls": "SUPPORT", "label": "WALK", "meal_time": null}
+{"lang": "ko", "text": "할아버지께서 간식을 아주 조금만 드심", "cls": "MEAL", "label": "LITTLE", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할아버지께서 저녁 식사를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "uz", "text": "Onaxon hamma yeri sanchiyapti deb shikoyat qildi", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "uz", "text": "Buvi juda kam siydi", "cls": "EXCRETION", "label": "NONE", "meal_time": null}
+{"lang": "ko", "text": "할머니는 자다가 몇 번 일어나심", "cls": "SLEEP", "label": "WOKE", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 저녁을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "DINNER"}
+{"lang": "ko", "text": "잠이 안 온다고 하심", "cls": "SLEEP", "label": "POOR", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले बिहानको खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "BREAKFAST"}
+{"lang": "vi", "text": "Bà cụ ăn sạch đồ ăn nhẹ", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "ko", "text": "할머니께서 저녁 식사를 남김없이 드심", "cls": "MEAL", "label": "ALL", "meal_time": "DINNER"}
+{"lang": "ko", "text": "할머니께서 아침을 거부하셨습니다", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "uz", "text": "buvijon pechenedan ozgina qoldirdi", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Ba bao dau goi nhuc", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "vi", "text": "bà cụ không chịu ăn đồ ăn nhẹ", "cls": "MEAL", "label": "NONE", "meal_time": "SNACK"}
+{"lang": "id", "text": "sarapan oma habis semua", "cls": "MEAL", "label": "ALL", "meal_time": "BREAKFAST"}
+{"lang": "ne", "text": "उहाँले दिउँसोको खाना दुई तीन चम्चा मात्र खानुभयो", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Chưa rõ Cụ uống thuốc hay chưa", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "ko", "text": "할머니께서 점심을 하셨습니다", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ba cu an duoc vai thia com toi", "cls": "MEAL", "label": "LITTLE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "몸이 결린다고 말씀하심", "cls": "DISCOMFORT", "label": "UNSPEC", "meal_time": null}
+{"lang": "ne", "text": "उहाँले भात सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신께서 아침 약을 드시는 것을 봤음", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "id", "text": "beliau tidak makan sarapan sama sekali", "cls": "MEAL", "label": "NONE", "meal_time": "BREAKFAST"}
+{"lang": "ko", "text": "어르신께서 점심 식사를 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "어르신은 간식을 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "SNACK"}
+{"lang": "ko", "text": "어르신은 밥을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Tidak tahu Beliau sudah minum obat atau belum", "cls": "MEDICATION", "label": "NOT_CONFIRMED", "meal_time": null}
+{"lang": "ko", "text": "어르신은 간식을 하심", "cls": "MEAL", "label": "UNSPEC", "meal_time": "SNACK"}
+{"lang": "ko", "text": "무릎이 결린다고 말씀하셨어요", "cls": "DISCOMFORT", "label": "KNEE", "meal_time": null}
+{"lang": "ko", "text": "어르신께서 진지를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "어르신은 진지를 조금 남기고 드셨습니다", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "uz", "text": "Bobo kechki ovqat qildi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Ba cu an duoc vai thia com trua", "cls": "MEAL", "label": "LITTLE", "meal_time": "LUNCH"}
+{"lang": "ko", "text": "할머니는 화장실에서 미끄러져 넘어지셨습니다", "cls": "EVENT", "label": "FALL", "meal_time": null}
+{"lang": "vi", "text": "Ong an hau het bua an", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Cụ bồn chồn không yên", "cls": "MOOD", "label": "AGITATED", "meal_time": null}
+{"lang": "vi", "text": "Toi goi dau cho Ba", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले भात सक्नुभयो", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "Ba cu uong thuoc day du", "cls": "MEDICATION", "label": "TAKEN", "meal_time": null}
+{"lang": "uz", "text": "bobojon taomning yarmiga yaqinini yedi", "cls": "MEAL", "label": "HALF", "meal_time": "UNSPEC"}
+{"lang": "ko", "text": "머리를 감겨 드림", "cls": "SUPPORT", "label": "BATH", "meal_time": null}
+{"lang": "vi", "text": "Ba cu bao vai nhuc", "cls": "DISCOMFORT", "label": "SHOULDER", "meal_time": null}
+{"lang": "ne", "text": "हजुरबुबा चिप्लिन लाग्नुभयो", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "uz", "text": "onaxon ovqatni oxirigacha yedi", "cls": "MEAL", "label": "ALL", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Kakek tidur siang dengan tenang", "cls": "SLEEP", "label": "GOOD", "meal_time": null}
+{"lang": "id", "text": "Nenek makan sebagian besar makan siang", "cls": "MEAL", "label": "MOST", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "Ong an com trua roi", "cls": "MEAL", "label": "UNSPEC", "meal_time": "LUNCH"}
+{"lang": "vi", "text": "bà bảo bụng nhức", "cls": "DISCOMFORT", "label": "STOMACH", "meal_time": null}
+{"lang": "ne", "text": "हजुरआमाले खाना लिनुभयो", "cls": "MEAL", "label": "UNSPEC", "meal_time": "UNSPEC"}
+{"lang": "id", "text": "Oma sudah makan malam", "cls": "MEAL", "label": "UNSPEC", "meal_time": "DINNER"}
+{"lang": "vi", "text": "Bà suýt trượt chân", "cls": "EVENT", "label": "NEAR_FALL", "meal_time": null}
+{"lang": "vi", "text": "Ông không chịu ăn bữa tối", "cls": "MEAL", "label": "NONE", "meal_time": "DINNER"}
+{"lang": "ko", "text": "어르신께서 식사를 조금 남기고 드심", "cls": "MEAL", "label": "MOST", "meal_time": "UNSPEC"}
+{"lang": "vi", "text": "ông ăn sạch bánh", "cls": "MEAL", "label": "ALL", "meal_time": "SNACK"}
+{"lang": "vi", "text": "Cu trong met moi chan nan", "cls": "MOOD", "label": "LOW", "meal_time": null}
+{"lang": "id", "text": "Nenek tidur siang dengan tenang", "cls": "SLEEP", "label": "GOOD", "meal_time": null}

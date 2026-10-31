@@ -1,0 +1,4845 @@
+{
+ "parity": {
+  "checked": 300,
+  "identical": 300
+ },
+ "clause": {
+  "n": 1182,
+  "cls_acc": 91.2,
+  "sub_acc": 64.6,
+  "meal_time_acc": 100,
+  "by_lang": {
+   "ko": {
+    "cls": 95.9,
+    "sub": 43.2
+   },
+   "vi": {
+    "cls": 87.6,
+    "sub": 79
+   },
+   "ne": {
+    "cls": 90.3,
+    "sub": 64.8
+   },
+   "id": {
+    "cls": 93.1,
+    "sub": 81.9
+   },
+   "uz": {
+    "cls": 89.4,
+    "sub": 51.3
+   }
+  },
+  "by_field": {
+   "MEAL": 59.5,
+   "SUPPORT": 54.5,
+   "MEDICATION": 48.8,
+   "EXCRETION": 53.5,
+   "DISCOMFORT": 96,
+   "SLEEP": 83.3,
+   "MOOD": 68.3,
+   "EVENT": 100
+  },
+  "confusion": {
+   "MEAL": {
+    "MEAL": 734,
+    "EXCRETION": 7,
+    "MOOD": 4,
+    "SLEEP": 2,
+    "SUPPORT": 8
+   },
+   "SUPPORT": {
+    "SUPPORT": 83,
+    "EXCRETION": 3,
+    "MEAL": 2
+   },
+   "MEDICATION": {
+    "MEDICATION": 41,
+    "SUPPORT": 2
+   },
+   "VISIT": {
+    "VISIT": 13,
+    "SUPPORT": 2
+   },
+   "EXCRETION": {
+    "MOOD": 4,
+    "EXCRETION": 35,
+    "MEAL": 2,
+    "SUPPORT": 2
+   },
+   "DISCOMFORT": {
+    "DISCOMFORT": 80,
+    "MEAL": 8,
+    "SUPPORT": 6,
+    "SLEEP": 13,
+    "MOOD": 13,
+    "EXCRETION": 5,
+    "EVENT": 1
+   },
+   "SLEEP": {
+    "SLEEP": 37,
+    "MOOD": 4,
+    "DISCOMFORT": 1
+   },
+   "MOOD": {
+    "EVENT": 1,
+    "MOOD": 33,
+    "SUPPORT": 6,
+    "MEAL": 1
+   },
+   "EVENT": {
+    "EVENT": 22,
+    "MEAL": 3,
+    "MOOD": 4
+   }
+  }
+ },
+ "memo_synth": {
+  "memos": 300,
+  "gold_fields": 1228,
+  "pred_fields": 540,
+  "precision": 83.9,
+  "recall": 36.9,
+  "f1": 51.2,
+  "added_rate": 16.1,
+  "missed_rate": 63.1,
+  "holds": 732,
+  "false_release": 0,
+  "perfect_memos": 11,
+  "all_grounded": true,
+  "blocked_terms": 0,
+  "avg_ms": 1,
+  "details": [
+   {
+    "id": "S-ko-000",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|BREAKFAST",
+     "DISCOMFORT|STOMACH",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-001",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "EXCRETION|NORMAL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-002",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-003",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "MEDICATION|REFUSED",
+     "MEAL|UNSPEC|DINNER"
+    ],
+    "added": [
+     "MEDICATION|TAKEN"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-004",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|MEAL_ASSIST",
+     "SLEEP|POOR"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-005",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "MEAL|ALL|UNSPEC",
+     "MOOD|AGITATED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-006",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-007",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|DRESS",
+     "EXCRETION|NORMAL",
+     "MEAL|HALF|SNACK"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-008",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "MEAL|ALL|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-009",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|NONE|BREAKFAST",
+     "DISCOMFORT|UNSPEC",
+     "MOOD|GOOD",
+     "SLEEP|WOKE"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-010",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NORMAL",
+     "MOOD|AGITATED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-011",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|WOKE",
+     "MOOD|AGITATED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-012",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|UNSPEC",
+     "EXCRETION|NONE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-013",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|AGITATED",
+     "SUPPORT|DRESS"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-014",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "SLEEP|POOR",
+     "MOOD|AGITATED",
+     "SUPPORT|REPOSITION"
+    ],
+    "added": [
+     "MEDICATION|TAKEN"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-015",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|GOOD",
+     "MEAL|HALF|BREAKFAST",
+     "MOOD|LOW",
+     "EXCRETION|NONE"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-016",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|CLEAN",
+     "MEAL|UNSPEC|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-017",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|GOOD"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-018",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|WALK",
+     "EVENT|NEAR_FALL",
+     "EXCRETION|NORMAL",
+     "MEDICATION|NOT_CONFIRMED",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-019",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|MOST|UNSPEC",
+     "EXCRETION|NORMAL",
+     "SLEEP|GOOD",
+     "SUPPORT|DRESS"
+    ],
+    "added": [
+     "MEAL|LITTLE|UNSPEC"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-020",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NORMAL",
+     "SLEEP|GOOD",
+     "MEDICATION|NOT_CONFIRMED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-021",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|LUNCH",
+     "SUPPORT|WALK",
+     "EXCRETION|NORMAL",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-022",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "MOOD|LOW",
+     "SLEEP|WOKE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-023",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "MEAL|UNSPEC|LUNCH"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-024",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|AGITATED",
+     "EXCRETION|LOOSE",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-025",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|WOKE",
+     "SUPPORT|DRESS",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-026",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-027",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|HALF|UNSPEC",
+     "DISCOMFORT|KNEE",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-028",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|HALF|BREAKFAST",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-029",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "MEDICATION|NOT_CONFIRMED",
+     "MEAL|NONE|UNSPEC"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-030",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "DISCOMFORT|STOMACH",
+     "SLEEP|POOR",
+     "MEAL|HALF|SNACK"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-031",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|MOST|BREAKFAST",
+     "EXCRETION|NORMAL",
+     "SLEEP|GOOD",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [
+     "MEAL|LITTLE|BREAKFAST"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-032",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|LUNCH",
+     "EXCRETION|NORMAL",
+     "SLEEP|POOR",
+     "MOOD|LOW"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-033",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|DRESS",
+     "SLEEP|GOOD",
+     "EXCRETION|NORMAL",
+     "MEAL|HALF|UNSPEC",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-034",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|LOW",
+     "MEAL|MOST|UNSPEC",
+     "DISCOMFORT|KNEE",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [
+     "MEAL|LITTLE|UNSPEC"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-035",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "MOOD|GOOD",
+     "MEAL|UNSPEC|DINNER",
+     "SLEEP|WOKE"
+    ],
+    "added": [
+     "MEDICATION|TAKEN"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-036",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|LOW",
+     "EXCRETION|NONE",
+     "MEAL|MOST|UNSPEC",
+     "EVENT|NEAR_FALL",
+     "SLEEP|WOKE"
+    ],
+    "added": [
+     "MEAL|LITTLE|UNSPEC"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-037",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|HALF|UNSPEC",
+     "SUPPORT|REPOSITION",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-038",
+    "lang": "ko",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-039",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "MEAL|ALL|UNSPEC",
+     "DISCOMFORT|CHEST",
+     "MOOD|AGITATED"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-040",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|AGITATED",
+     "MEDICATION|REFUSED",
+     "MEAL|HALF|DINNER"
+    ],
+    "added": [
+     "MEDICATION|TAKEN"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-041",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|GOOD",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-042",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|POOR",
+     "SUPPORT|DRESS"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-043",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|POOR",
+     "MOOD|AGITATED",
+     "EXCRETION|NORMAL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-044",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|DRESS"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-045",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "SLEEP|POOR",
+     "MEDICATION|REFUSED",
+     "MOOD|LOW"
+    ],
+    "added": [
+     "MEDICATION|TAKEN"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-046",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|DRESS"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-047",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SLEEP|POOR"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-048",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "SLEEP|POOR"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-049",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "MEAL|NONE|BREAKFAST"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-050",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "MEAL|MOST|UNSPEC",
+     "SUPPORT|REPOSITION"
+    ],
+    "added": [
+     "MEDICATION|TAKEN",
+     "MEAL|LITTLE|UNSPEC"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-051",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|SNACK",
+     "EVENT|NEAR_FALL",
+     "EXCRETION|NORMAL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-052",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|AGITATED",
+     "DISCOMFORT|KNEE",
+     "SLEEP|GOOD",
+     "EXCRETION|NORMAL",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [
+     "MEDICATION|TAKEN"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-053",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "EXCRETION|LOOSE",
+     "MEAL|MOST|BREAKFAST"
+    ],
+    "added": [
+     "MEAL|LITTLE|BREAKFAST"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-054",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|LOW",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [
+     "MEDICATION|TAKEN"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-055",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEDICATION|NOT_CONFIRMED",
+     "MEAL|NONE|LUNCH",
+     "SLEEP|WOKE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-056",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "SUPPORT|BATH",
+     "MOOD|GOOD",
+     "MEAL|HALF|DINNER"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-057",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NORMAL",
+     "SLEEP|WOKE",
+     "MEDICATION|NOT_CONFIRMED",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-058",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEDICATION|NOT_CONFIRMED",
+     "SLEEP|WOKE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ko-059",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-000",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-001",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-002",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|BACK",
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-003",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-004",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [
+     "SUPPORT|DRESS"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-005",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "MEDICATION|NOT_CONFIRMED",
+     "DISCOMFORT|BACK",
+     "SUPPORT|BATH",
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 6,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-006",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|HALF|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-007",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-008",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|BACK",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-009",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|MOST|DINNER",
+     "DISCOMFORT|HEAD",
+     "MEDICATION|REFUSED",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "MEAL|ALL|DINNER"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-010",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|ALL|SNACK",
+     "DISCOMFORT|UNSPEC",
+     "SUPPORT|REPOSITION",
+     "EVENT|FALL"
+    ],
+    "added": [
+     "SUPPORT|BATH"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-011",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "DISCOMFORT|LEG"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-012",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "MEDICATION|NOT_CONFIRMED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-013",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|FALL",
+     "MEAL|MOST|UNSPEC",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "MEAL|ALL|UNSPEC"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-014",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "MEDICATION|REFUSED",
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-015",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|KNEE",
+     "SUPPORT|REPOSITION",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [
+     "SUPPORT|BATH"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-016",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|NOT_CONFIRMED",
+     "DISCOMFORT|HEAD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-017",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EVENT|FALL",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-018",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-019",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|NOT_CONFIRMED",
+     "MEAL|MOST|LUNCH",
+     "DISCOMFORT|HEAD"
+    ],
+    "added": [
+     "MEAL|ALL|LUNCH"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-020",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-021",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED",
+     "EXCRETION|LOOSE",
+     "SUPPORT|REPOSITION"
+    ],
+    "added": [
+     "SUPPORT|BATH"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-022",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|BACK"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-023",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|SHOULDER",
+     "EVENT|FALL",
+     "EXCRETION|NONE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-024",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-025",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "MEDICATION|NOT_CONFIRMED",
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-026",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|UNSPEC",
+     "SUPPORT|DRESS"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-027",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-028",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|NOT_CONFIRMED",
+     "SUPPORT|DRESS",
+     "MOOD|GOOD",
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-029",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|SNACK",
+     "DISCOMFORT|SHOULDER"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-030",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEAL|HALF|UNSPEC",
+     "MEDICATION|NOT_CONFIRMED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-031",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "DISCOMFORT|UNSPEC",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-032",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-033",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-034",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-035",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "MEDICATION|NOT_CONFIRMED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-036",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-037",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "MOOD|GOOD",
+     "MEAL|HALF|DINNER"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-038",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-039",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "DISCOMFORT|UNSPEC",
+     "SUPPORT|BATH"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-040",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "SUPPORT|REPOSITION",
+     "MEAL|MOST|LUNCH"
+    ],
+    "added": [
+     "SUPPORT|BATH",
+     "MEAL|ALL|LUNCH"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-041",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-042",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "SUPPORT|BATH",
+     "DISCOMFORT|HEAD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-043",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "EVENT|NEAR_FALL",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-044",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|MOST|UNSPEC",
+     "EXCRETION|LOOSE",
+     "EVENT|FALL",
+     "DISCOMFORT|STOMACH"
+    ],
+    "added": [
+     "MEAL|ALL|UNSPEC"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-045",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "MEDICATION|NOT_CONFIRMED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-046",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-047",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|LUNCH",
+     "MEDICATION|NOT_CONFIRMED",
+     "SUPPORT|DRESS",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-048",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|CHEST"
+    ],
+    "added": [
+     "SLEEP|POOR"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-049",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|GOOD",
+     "DISCOMFORT|BACK"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-050",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SUPPORT|DRESS",
+     "DISCOMFORT|STOMACH",
+     "EVENT|FALL",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-051",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-052",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|STOMACH",
+     "MEDICATION|NOT_CONFIRMED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-053",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "SUPPORT|BATH"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-054",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-055",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|FALL",
+     "DISCOMFORT|STOMACH"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-056",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-057",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-058",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|DINNER",
+     "DISCOMFORT|UNSPEC",
+     "SUPPORT|REPOSITION",
+     "EVENT|FALL"
+    ],
+    "added": [
+     "SUPPORT|BATH"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-vi-059",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-000",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SLEEP|GOOD",
+     "MEDICATION|REFUSED",
+     "SUPPORT|BATH"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-001",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|STOMACH",
+     "MOOD|AGITATED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-002",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MOOD|LOW",
+     "SUPPORT|MEAL_ASSIST"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-003",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "DISCOMFORT|STOMACH",
+     "EXCRETION|NORMAL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-004",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|BACK",
+     "MEAL|UNSPEC|DINNER",
+     "EXCRETION|NORMAL",
+     "MOOD|LOW"
+    ],
+    "added": [],
+    "holds": 6,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-005",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-006",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "MOOD|GOOD",
+     "DISCOMFORT|STOMACH"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-007",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "MEDICATION|REFUSED",
+     "EXCRETION|NONE"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-008",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|AGITATED",
+     "SLEEP|POOR",
+     "DISCOMFORT|STOMACH",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-009",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|SHOULDER"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-010",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "MEAL|MOST|DINNER"
+    ],
+    "added": [
+     "MEAL|LITTLE|DINNER"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-011",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "MOOD|LOW",
+     "DISCOMFORT|SHOULDER"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-012",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-013",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "SLEEP|GOOD",
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-014",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|LEG"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-015",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED",
+     "SLEEP|GOOD",
+     "MOOD|LOW"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-016",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-017",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|DINNER",
+     "MEDICATION|NOT_CONFIRMED",
+     "EVENT|NEAR_FALL",
+     "SLEEP|GOOD"
+    ],
+    "added": [
+     "MEAL|UNSPEC|DINNER"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-018",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "MEAL|MOST|DINNER",
+     "SLEEP|GOOD",
+     "EXCRETION|NORMAL",
+     "DISCOMFORT|BACK"
+    ],
+    "added": [
+     "MOOD|AGITATED",
+     "MEAL|LITTLE|DINNER"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-019",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "SLEEP|POOR",
+     "MOOD|GOOD"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-020",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-021",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "SLEEP|GOOD"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-022",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SLEEP|GOOD",
+     "MEDICATION|NOT_CONFIRMED",
+     "DISCOMFORT|UNSPEC",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-023",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|UNSPEC",
+     "EXCRETION|NONE",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [
+     "SUPPORT|DRESS"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-024",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MOOD|LOW",
+     "DISCOMFORT|UNSPEC",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-025",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MEDICATION|NOT_CONFIRMED",
+     "MOOD|GOOD"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-026",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "SLEEP|GOOD",
+     "SUPPORT|CLEAN",
+     "MEAL|MOST|BREAKFAST",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "SUPPORT|DRESS",
+     "MEAL|LITTLE|BREAKFAST"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-027",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "MOOD|LOW",
+     "SUPPORT|CLEAN",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "SUPPORT|DRESS"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-028",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|LEG",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-029",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|ALL|DINNER",
+     "SLEEP|GOOD"
+    ],
+    "added": [
+     "MEAL|UNSPEC|DINNER"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-030",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NORMAL",
+     "DISCOMFORT|BACK"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-031",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "EXCRETION|NONE"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-032",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "MEDICATION|REFUSED",
+     "SLEEP|POOR",
+     "DISCOMFORT|BACK",
+     "MOOD|GOOD"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-033",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|LITTLE|DINNER",
+     "DISCOMFORT|HEAD",
+     "SLEEP|GOOD",
+     "EXCRETION|NORMAL"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-034",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MEAL|MOST|DINNER",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "MEAL|LITTLE|DINNER"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-035",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "SUPPORT|BATH",
+     "SLEEP|POOR",
+     "EXCRETION|LOOSE",
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|CHEST"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-036",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|GOOD",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-037",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|LOW",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-038",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [
+     "SUPPORT|DRESS"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-039",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|ALL|BREAKFAST",
+     "MOOD|GOOD"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-040",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SLEEP|POOR",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-041",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|AGITATED",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-042",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "EXCRETION|LOOSE",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [
+     "SUPPORT|DRESS"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-043",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|BACK",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-044",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|KNEE",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-045",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NORMAL",
+     "DISCOMFORT|LEG"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-046",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "SUPPORT|MEAL_ASSIST",
+     "MOOD|LOW"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-047",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "MOOD|LOW",
+     "MEAL|MOST|DINNER",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [
+     "MEAL|LITTLE|DINNER"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-048",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|BACK",
+     "MOOD|AGITATED",
+     "EVENT|NEAR_FALL",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-049",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-050",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NORMAL",
+     "MOOD|LOW"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-051",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NORMAL",
+     "DISCOMFORT|STOMACH",
+     "MEDICATION|REFUSED",
+     "MOOD|AGITATED"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-052",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "MEAL|MOST|BREAKFAST",
+     "EVENT|NEAR_FALL",
+     "SUPPORT|BATH"
+    ],
+    "added": [
+     "MEAL|LITTLE|BREAKFAST"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-053",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-054",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|GOOD",
+     "SUPPORT|BATH",
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [
+     "MOOD|AGITATED"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-055",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-056",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|KNEE",
+     "MEAL|ALL|UNSPEC",
+     "EVENT|NEAR_FALL",
+     "SUPPORT|BATH"
+    ],
+    "added": [
+     "MEAL|UNSPEC|UNSPEC"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-057",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|BACK",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-058",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|HEAD",
+     "SUPPORT|REPOSITION"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-ne-059",
+    "lang": "ne",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SUPPORT|CLEAN",
+     "DISCOMFORT|BACK",
+     "MEAL|LITTLE|BREAKFAST"
+    ],
+    "added": [
+     "SUPPORT|DRESS"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-000",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-001",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-002",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "MEAL|MOST|SNACK"
+    ],
+    "added": [
+     "MEAL|UNSPEC|SNACK"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-003",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "EXCRETION|NONE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-004",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "SUPPORT|MEAL_ASSIST"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-005",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "SUPPORT|DRESS"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-006",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-007",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-008",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MEDICATION|TAKEN",
+     "SUPPORT|DRESS",
+     "SLEEP|GOOD"
+    ],
+    "added": [
+     "SLEEP|POOR"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-009",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|SHOULDER",
+     "MOOD|GOOD",
+     "SLEEP|GOOD"
+    ],
+    "added": [
+     "SLEEP|POOR"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-010",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|GOOD",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-011",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-012",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "SUPPORT|MEAL_ASSIST",
+     "SLEEP|GOOD"
+    ],
+    "added": [
+     "SLEEP|POOR"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-013",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-014",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-015",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-016",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SUPPORT|CLEAN",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-017",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MEAL|HALF|SNACK",
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|STOMACH",
+     "MOOD|GOOD",
+     "SUPPORT|WALK"
+    ],
+    "added": [],
+    "holds": 5,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-018",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED",
+     "DISCOMFORT|UNSPEC",
+     "MEAL|MOST|SNACK"
+    ],
+    "added": [
+     "MEAL|UNSPEC|SNACK"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-019",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-020",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-021",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-022",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|STOMACH"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-023",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|TAKEN",
+     "SUPPORT|DRESS"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-024",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-025",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-026",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-027",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-028",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-029",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-030",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "EXCRETION|NONE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-031",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-032",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|TAKEN",
+     "EXCRETION|NONE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-033",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED",
+     "SUPPORT|BATH"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-034",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SUPPORT|BATH",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-035",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|KNEE",
+     "MEDICATION|TAKEN"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-036",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-037",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SUPPORT|WALK",
+     "DISCOMFORT|KNEE",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-038",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|TAKEN",
+     "MEAL|MOST|UNSPEC",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [
+     "MEAL|UNSPEC|UNSPEC"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-039",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|TAKEN"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-040",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-041",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EVENT|NEAR_FALL",
+     "EXCRETION|LOOSE",
+     "SUPPORT|BATH"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-042",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-043",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-044",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-045",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|SHOULDER",
+     "EVENT|NEAR_FALL",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-046",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MOOD|GOOD",
+     "SLEEP|GOOD",
+     "SUPPORT|BATH"
+    ],
+    "added": [
+     "SLEEP|POOR"
+    ],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-047",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-048",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "SUPPORT|CLEAN",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-049",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|SNACK",
+     "MEDICATION|TAKEN"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-050",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "SUPPORT|CLEAN",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-051",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "MEAL|MOST|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-052",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "EXCRETION|NONE",
+     "MOOD|GOOD",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-053",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|",
+     "MEAL|MOST|DINNER"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-054",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-055",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "SLEEP|GOOD",
+     "SUPPORT|BATH",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [
+     "SLEEP|POOR"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-056",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "VISIT|"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-057",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-058",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-id-059",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "SUPPORT|DRESS",
+     "MEDICATION|TAKEN",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-000",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|UNSPEC",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-001",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|STOMACH",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-002",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-003",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-004",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NORMAL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-005",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-006",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|MEAL_ASSIST"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-007",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "SUPPORT|REPOSITION",
+     "DISCOMFORT|STOMACH"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-008",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEDICATION|REFUSED",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-009",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|STOMACH"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-010",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|UNSPEC",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [
+     "MEAL|UNSPEC|UNSPEC"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-011",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "EVENT|NEAR_FALL",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-012",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|HEAD",
+     "SUPPORT|MEAL_ASSIST"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-013",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|LEG",
+     "MEAL|LITTLE|DINNER",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "MEAL|UNSPEC|DINNER"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-014",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-015",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|MEAL_ASSIST",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-016",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "DISCOMFORT|SHOULDER"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-017",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "MEAL|MOST|LUNCH"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-018",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "MEAL|ALL|UNSPEC",
+     "EXCRETION|NORMAL"
+    ],
+    "added": [
+     "MEAL|UNSPEC|UNSPEC"
+    ],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-019",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "MEAL|ALL|UNSPEC"
+    ],
+    "added": [
+     "MEAL|UNSPEC|UNSPEC"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-020",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|UNSPEC",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-021",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "EXCRETION|LOOSE",
+     "EVENT|NEAR_FALL",
+     "DISCOMFORT|LEG"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-022",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|LOOSE",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-023",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-024",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|BATH",
+     "DISCOMFORT|CHEST"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-025",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|ALL|SNACK",
+     "EXCRETION|LOOSE",
+     "SUPPORT|REPOSITION"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-026",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-027",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|REPOSITION",
+     "DISCOMFORT|BACK"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-028",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|HEAD",
+     "SUPPORT|MEAL_ASSIST"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-029",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|CLEAN",
+     "MOOD|GOOD",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-030",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "EXCRETION|NONE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-031",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|BATH",
+     "EXCRETION|NONE",
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-032",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "DISCOMFORT|CHEST"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-033",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|MOST|SNACK",
+     "SUPPORT|WALK"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-034",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|SHOULDER",
+     "EVENT|NEAR_FALL",
+     "MEAL|LITTLE|SNACK"
+    ],
+    "added": [
+     "MEAL|UNSPEC|SNACK"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-035",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|LITTLE|DINNER",
+     "SUPPORT|REPOSITION",
+     "DISCOMFORT|UNSPEC"
+    ],
+    "added": [
+     "MEAL|UNSPEC|DINNER"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-036",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|LEG",
+     "MEAL|ALL|BREAKFAST"
+    ],
+    "added": [
+     "MEAL|UNSPEC|BREAKFAST"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-037",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|LITTLE|SNACK",
+     "SUPPORT|MEAL_ASSIST",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [
+     "MEAL|UNSPEC|SNACK"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-038",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-039",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|NONE|UNSPEC",
+     "EXCRETION|NONE",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-040",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|HEAD",
+     "MEAL|ALL|UNSPEC"
+    ],
+    "added": [
+     "MEAL|UNSPEC|UNSPEC"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-041",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|MEAL_ASSIST",
+     "MEAL|UNSPEC|SNACK",
+     "EXCRETION|NORMAL"
+    ],
+    "added": [
+     "MEAL|NONE|SNACK"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-042",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NORMAL",
+     "DISCOMFORT|CHEST"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-043",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-044",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "SUPPORT|MEAL_ASSIST",
+     "DISCOMFORT|SHOULDER",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 4,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-045",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|LITTLE|BREAKFAST",
+     "MEDICATION|REFUSED"
+    ],
+    "added": [
+     "MEAL|UNSPEC|BREAKFAST"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-046",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|KNEE"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-047",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL",
+     "EXCRETION|NONE",
+     "MOOD|GOOD"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-048",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "SUPPORT|WALK",
+     "MOOD|GOOD",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-049",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|LITTLE|SNACK",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [
+     "MEAL|UNSPEC|SNACK"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-050",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|UNSPEC",
+     "EXCRETION|LOOSE"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-051",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "DISCOMFORT|HEAD",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-052",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MOOD|GOOD",
+     "DISCOMFORT|STOMACH"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-053",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-054",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|UNSPEC|SNACK",
+     "EXCRETION|LOOSE",
+     "MOOD|GOOD",
+     "SUPPORT|WALK"
+    ],
+    "added": [
+     "MEAL|NONE|SNACK",
+     "EXCRETION|NORMAL"
+    ],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-055",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|MOST|LUNCH",
+     "SUPPORT|CLEAN"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-056",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|SHOULDER"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-057",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-058",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "MEAL|NONE|UNSPEC"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "S-uz-059",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|LEG",
+     "SUPPORT|MEAL_ASSIST"
+    ],
+    "added": [],
+    "holds": 3,
+    "grounded": true,
+    "blocked": 0
+   }
+  ]
+ },
+ "freetext": {
+  "memos": 25,
+  "gold_fields": 67,
+  "pred_fields": 60,
+  "precision": 100,
+  "recall": 89.6,
+  "f1": 94.5,
+  "added_rate": 0,
+  "missed_rate": 10.4,
+  "holds": 10,
+  "false_release": 0,
+  "perfect_memos": 19,
+  "all_grounded": true,
+  "blocked_terms": 0,
+  "avg_ms": 1,
+  "details": [
+   {
+    "id": "F-ko-01",
+    "lang": "ko",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ko-02",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "VISIT|"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ko-03",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EVENT|NEAR_FALL"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ko-04",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MEDICATION|TAKEN"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ko-05",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "EXCRETION|NONE",
+     "MEAL|NONE|LUNCH"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-vi-01",
+    "lang": "vi",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-vi-02",
+    "lang": "vi",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-vi-03",
+    "lang": "vi",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-vi-04",
+    "lang": "vi",
+    "ok": false,
+    "missed": [
+     "EVENT|FALL"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-vi-05",
+    "lang": "vi",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ne-01",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ne-02",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ne-03",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ne-04",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-ne-05",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-id-01",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-id-02",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "SLEEP|GOOD"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-id-03",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-id-04",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-id-05",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-uz-01",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-uz-02",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-uz-03",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-uz-04",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "F-uz-05",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   }
+  ],
+  "by_lang": {
+   "ko": {
+    "precision": 100,
+    "recall": 66.7,
+    "perfect": "1/5"
+   },
+   "vi": {
+    "precision": 100,
+    "recall": 93.3,
+    "perfect": "4/5"
+   },
+   "ne": {
+    "precision": 100,
+    "recall": 100,
+    "perfect": "5/5"
+   },
+   "id": {
+    "precision": 100,
+    "recall": 91.7,
+    "perfect": "4/5"
+   },
+   "uz": {
+    "precision": 100,
+    "recall": 100,
+    "perfect": "5/5"
+   }
+  }
+ },
+ "blind": {
+  "memos": 15,
+  "gold_fields": 36,
+  "pred_fields": 34,
+  "precision": 97.1,
+  "recall": 91.7,
+  "f1": 94.3,
+  "added_rate": 2.9,
+  "missed_rate": 8.3,
+  "holds": 5,
+  "false_release": 0,
+  "perfect_memos": 12,
+  "all_grounded": true,
+  "blocked_terms": 0,
+  "avg_ms": 1,
+  "details": [
+   {
+    "id": "B-ko-01",
+    "lang": "ko",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-ko-02",
+    "lang": "ko",
+    "ok": false,
+    "missed": [
+     "MOOD|AGITATED"
+    ],
+    "added": [],
+    "holds": 2,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-ko-03",
+    "lang": "ko",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-vi-01",
+    "lang": "vi",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-vi-02",
+    "lang": "vi",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-vi-03",
+    "lang": "vi",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-ne-01",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-ne-02",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-ne-03",
+    "lang": "ne",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-id-01",
+    "lang": "id",
+    "ok": false,
+    "missed": [
+     "DISCOMFORT|HEAD"
+    ],
+    "added": [],
+    "holds": 1,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-id-02",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-id-03",
+    "lang": "id",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-uz-01",
+    "lang": "uz",
+    "ok": false,
+    "missed": [
+     "MEAL|LITTLE|DINNER"
+    ],
+    "added": [
+     "MEAL|UNSPEC|DINNER"
+    ],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-uz-02",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   },
+   {
+    "id": "B-uz-03",
+    "lang": "uz",
+    "ok": true,
+    "missed": [],
+    "added": [],
+    "holds": 0,
+    "grounded": true,
+    "blocked": 0
+   }
+  ]
+ },
+ "pii": {
+  "gold": 5,
+  "masked": 5,
+  "recall": 100,
+  "false_masks": 0,
+  "texts": 40
+ },
+ "model": {
+  "version": "1.0.0",
+  "dim": 8192,
+  "heads": 10,
+  "size_kb": 515
+ }
+}

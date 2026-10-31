@@ -1,0 +1,17 @@
+[
+ {"id":"B-ko-01","lang":"ko","text":"오후 1시 방문. 점심은 반 그릇 정도 드셨어요. 어깨가 아프다고 하셔서 기관에 알리겠다고 말씀드림.","gold":[{"cls":"VISIT"},{"cls":"MEAL","label":"HALF","meal_time":"LUNCH"},{"cls":"DISCOMFORT","label":"SHOULDER"}]},
+ {"id":"B-ko-02","lang":"ko","text":"어르신이 오늘따라 불안해하시며 딸을 계속 찾으심. 약은 안 드시겠다고 하심.","gold":[{"cls":"MOOD","label":"AGITATED"},{"cls":"MEDICATION","label":"REFUSED"}]},
+ {"id":"B-ko-03","lang":"ko","text":"침대 시트 갈고 방 정리함. 밤새 여러 번 깨셨다고 하심. 묽은 변 2회.","gold":[{"cls":"SUPPORT","label":"CLEAN"},{"cls":"SLEEP","label":"WOKE"},{"cls":"EXCRETION","label":"LOOSE"}]},
+ {"id":"B-vi-01","lang":"vi","text":"Hôm nay ông ăn gần hết bữa sáng. Ông kêu đau bụng một chút.","gold":[{"cls":"MEAL","label":"MOST","meal_time":"BREAKFAST"},{"cls":"DISCOMFORT","label":"STOMACH"}]},
+ {"id":"B-vi-02","lang":"vi","text":"Toi giup ba thay quan ao. Ba vui ve, hat theo radio. Ba da uong thuoc.","gold":[{"cls":"SUPPORT","label":"DRESS"},{"cls":"MOOD","label":"GOOD"},{"cls":"MEDICATION","label":"TAKEN"}]},
+ {"id":"B-vi-03","lang":"vi","text":"Đến lúc 8 giờ. Bà suýt ngã khi đứng dậy từ ghế.","gold":[{"cls":"VISIT"},{"cls":"EVENT","label":"NEAR_FALL"}]},
+ {"id":"B-ne-01","lang":"ne","text":"हजुरबुबाले बेलुकाको खाना सबै खानुभयो। हजुरबुबा आज खुसी देखिनुभयो।","gold":[{"cls":"MEAL","label":"ALL","meal_time":"DINNER"},{"cls":"MOOD","label":"GOOD"}]},
+ {"id":"B-ne-02","lang":"ne","text":"हजुरआमाले काँध दुख्यो भन्नुभयो। औषधि खाएको पक्का भएन।","gold":[{"cls":"DISCOMFORT","label":"SHOULDER"},{"cls":"MEDICATION","label":"NOT_CONFIRMED"}]},
+ {"id":"B-ne-03","lang":"ne","text":"दिउँसो २ बजे पुगेँ। हजुरआमालाई ह्वीलचेयरमा सार्न सहयोग गरेँ। पातलो दिसा गर्नुभयो।","gold":[{"cls":"VISIT"},{"cls":"SUPPORT","label":"WALK"},{"cls":"EXCRETION","label":"LOOSE"}]},
+ {"id":"B-id-01","lang":"id","text":"Kakek hampir menghabiskan makan malam. Kakek bilang kepalanya pusing.","gold":[{"cls":"MEAL","label":"MOST","meal_time":"DINNER"},{"cls":"DISCOMFORT","label":"HEAD"}]},
+ {"id":"B-id-02","lang":"id","text":"Saya membantu Nenek mandi pagi. Nenek terlihat murung hari ini.","gold":[{"cls":"SUPPORT","label":"BATH"},{"cls":"MOOD","label":"LOW"}]},
+ {"id":"B-id-03","lang":"id","text":"Datang jam 10. Nenek belum BAB sejak kemarin. Nenek sudah minum obat.","gold":[{"cls":"VISIT"},{"cls":"EXCRETION","label":"NONE"},{"cls":"MEDICATION","label":"TAKEN"}]},
+ {"id":"B-uz-01","lang":"uz","text":"Bobo kechki ovqatdan juda kam yedi. Bobo beli og'riyotganini aytdi.","gold":[{"cls":"MEAL","label":"LITTLE","meal_time":"DINNER"},{"cls":"DISCOMFORT","label":"BACK"}]},
+ {"id":"B-uz-02","lang":"uz","text":"Buvini cho'miltirdim. Buvi kechasi tinch uxladi.","gold":[{"cls":"SUPPORT","label":"BATH"},{"cls":"SLEEP","label":"GOOD"}]},
+ {"id":"B-uz-03","lang":"uz","text":"Soat 15:00 da keldim. Buvi hammomda yiqilib tushdi. Dori ichganini bilmadim.","gold":[{"cls":"VISIT"},{"cls":"EVENT","label":"FALL"},{"cls":"MEDICATION","label":"NOT_CONFIRMED"}]}
+]

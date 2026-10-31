@@ -1,0 +1,3484 @@
+[
+ {
+  "id": "F-ko-01",
+  "lang": "ko",
+  "input": "점심을 절반 드셨고 무릎이 불편하다고 말씀하셨습니다. 복약 여부는 확인하지 못했습니다.",
+  "masked": "점심을 절반 드셨고 무릎이 불편하다고 말씀하셨습니다. 복약 여부는 확인하지 못했습니다.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "점심을 절반 드셨고",
+    "item": "식사",
+    "value": "HALF",
+    "meal_time": "LUNCH",
+    "confidence": 0.932,
+    "status": "ok",
+    "evidence_words": [
+     "절반",
+     "점심을"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "무릎이 불편하다고 말씀하셨습니다",
+    "item": "불편감 표현",
+    "value": "KNEE",
+    "meal_time": null,
+    "confidence": 0.811,
+    "status": "ok",
+    "evidence_words": [
+     "무릎이",
+     "불편하다고"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "복약 여부는 확인하지 못했습니다",
+    "item": "복약 관련 관찰",
+    "value": "NOT_CONFIRMED",
+    "meal_time": null,
+    "confidence": 0.888,
+    "status": "ok",
+    "evidence_words": [
+     "복약",
+     "확인하지"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "점심 식사 절반 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "무릎 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "복약 여부 미확인(작성자가 확인하지 못함).",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "무릎 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 여부 미확인 — 담당자가 확인 후 기록 (AI는 복용 여부를 채우지 않음)",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-ko-02",
+  "lang": "ko",
+  "input": "9시 30분 도착. 김순자 어르신 세면 도와드림. 아침은 거의 다 드심. 어젯밤에 잠을 통 못 잤다고 하심.",
+  "masked": "9시 30분 도착. ○○ 어르신 세면 도와드림. 아침은 거의 다 드심. 어젯밤에 잠을 통 못 잤다고 하심.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "9시 30분 도착",
+    "item": "방문 시점",
+    "value": "09:30",
+    "meal_time": null,
+    "confidence": 0.484,
+    "status": "hold",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "○○ 어르신 세면 도와드림",
+    "item": "제공한 지원",
+    "value": "BATH",
+    "meal_time": null,
+    "confidence": 0.8,
+    "status": "ok",
+    "evidence_words": [
+     "도와드림",
+     "세면"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "아침은 거의 다 드심",
+    "item": "식사",
+    "value": "MOST",
+    "meal_time": "BREAKFAST",
+    "confidence": 0.966,
+    "status": "ok",
+    "evidence_words": [
+     "거의",
+     "다"
+    ]
+   },
+   {
+    "n": 4,
+    "text": "어젯밤에 잠을 통 못 잤다고 하심",
+    "item": "수면",
+    "value": "POOR",
+    "meal_time": null,
+    "confidence": 0.964,
+    "status": "ok",
+    "evidence_words": [
+     "잠을",
+     "잤다고"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "목욕·세면 지원 제공.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "아침 식사 대부분 섭취 관찰.",
+    "source_clauses": [
+     3
+    ]
+   },
+   {
+    "text": "수면: 잠을 잘 못 주무심.",
+    "source_clauses": [
+     4
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ① 직접 확인",
+    "src": [
+     1
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 1,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-ko-03",
+  "lang": "ko",
+  "input": "화장실 가시다가 휘청하셔서 잡아드렸어요. 허리가 아프다고 하심. 저녁은 조금 드셨어요.",
+  "masked": "화장실 가시다가 휘청하셔서 잡아드렸어요. 허리가 아프다고 하심. 저녁은 조금 드셨어요.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "화장실 가시다가 휘청하셔서",
+    "item": "특이사항(사건)",
+    "value": "NEAR_FALL",
+    "meal_time": null,
+    "confidence": 0.544,
+    "status": "hold",
+    "evidence_words": [
+     "휘청하셔서"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "잡아드렸어요",
+    "item": "특이사항(사건)",
+    "value": "NEAR_FALL",
+    "meal_time": null,
+    "confidence": 0.281,
+    "status": "hold",
+    "evidence_words": [
+     "잡아드렸어요"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "허리가 아프다고 하심",
+    "item": "불편감 표현",
+    "value": "BACK",
+    "meal_time": null,
+    "confidence": 0.868,
+    "status": "ok",
+    "evidence_words": [
+     "허리가",
+     "아프다고"
+    ]
+   },
+   {
+    "n": 4,
+    "text": "저녁은 조금 드셨어요",
+    "item": "식사",
+    "value": "LITTLE",
+    "meal_time": "DINNER",
+    "confidence": 0.949,
+    "status": "ok",
+    "evidence_words": [
+     "조금",
+     "드셨어요"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "저녁 식사 소량 섭취 관찰.",
+    "source_clauses": [
+     4
+    ]
+   },
+   {
+    "text": "허리·등 불편감을 본인이 표현함.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ① 직접 확인",
+    "src": [
+     1
+    ]
+   },
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ② 직접 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "식사",
+    "text": "'조금' 등 표현만 있음 — 실제 섭취량(정량) 확인",
+    "src": [
+     4
+    ]
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "허리·등 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 2,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-ko-04",
+  "lang": "ko",
+  "input": "오늘은 말수가 적고 기운이 없어 보이셨습니다. 약은 제가 보는 앞에서 드셨습니다. 보호자 연락처 010-1234-5678.",
+  "masked": "오늘은 말수가 적고 기운이 없어 보이셨습니다. 약은 제가 보는 앞에서 드셨습니다. 보호자 연락처 [전화번호].",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "오늘은 말수가 적고 기운이 없어 보이셨습니다",
+    "item": "정서·의사소통",
+    "value": "LOW",
+    "meal_time": null,
+    "confidence": 0.884,
+    "status": "ok",
+    "evidence_words": [
+     "말수가",
+     "기운이"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "약은 제가 보는 앞에서 드셨습니다",
+    "item": "복약 관련 관찰",
+    "value": "TAKEN",
+    "meal_time": null,
+    "confidence": 0.484,
+    "status": "hold",
+    "evidence_words": [
+     "드셨습니다",
+     "약은"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "보호자 연락처 [전화번호]",
+    "item": "제공한 지원",
+    "value": "WALK",
+    "meal_time": null,
+    "confidence": 0.234,
+    "status": "hold",
+    "evidence_words": [
+     "[전화번호]",
+     "보호자"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "정서: 기운 없음·말수 적음(관찰).",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ② 직접 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ③ 직접 확인",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 2,
+   "sentences": 1
+  }
+ },
+ {
+  "id": "F-ko-05",
+  "lang": "ko",
+  "input": "두 시간 간격으로 체위 바꿔드림. 사흘째 대변 소식이 없으심. 점심은 안 드시겠다고 하셨습니다.",
+  "masked": "두 시간 간격으로 체위 바꿔드림. 사흘째 대변 소식이 없으심. 점심은 안 드시겠다고 하셨습니다.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "두 시간 간격으로 체위 바꿔드림",
+    "item": "제공한 지원",
+    "value": "REPOSITION",
+    "meal_time": null,
+    "confidence": 0.87,
+    "status": "ok",
+    "evidence_words": [
+     "바꿔드림",
+     "체위"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "사흘째 대변 소식이 없으심",
+    "item": "정서·의사소통",
+    "value": "LOW",
+    "meal_time": null,
+    "confidence": 0.47,
+    "status": "hold",
+    "evidence_words": [
+     "없으심"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "점심은 안 드시겠다고 하셨습니다",
+    "item": "식사",
+    "value": "NONE",
+    "meal_time": "LUNCH",
+    "confidence": 0.524,
+    "status": "hold",
+    "evidence_words": [
+     "안",
+     "드시겠다고"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "체위 변경 제공.",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ② 직접 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ③ 직접 확인",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 2,
+   "sentences": 1
+  }
+ },
+ {
+  "id": "F-vi-01",
+  "lang": "vi",
+  "input": "Bà ăn được một nửa bữa trưa và nói đầu gối khó chịu. Tôi chưa kiểm tra được bà đã uống thuốc hay chưa.",
+  "masked": "Bà ăn được một nửa bữa trưa và nói đầu gối khó chịu. Tôi chưa kiểm tra được bà đã uống thuốc hay chưa.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Bà ăn được một nửa bữa trưa",
+    "item": "식사",
+    "value": "HALF",
+    "meal_time": "LUNCH",
+    "confidence": 0.988,
+    "status": "ok",
+    "evidence_words": [
+     "nửa",
+     "một"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "nói đầu gối khó chịu",
+    "item": "불편감 표현",
+    "value": "KNEE",
+    "meal_time": null,
+    "confidence": 0.91,
+    "status": "ok",
+    "evidence_words": [
+     "gối",
+     "đầu"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Tôi chưa kiểm tra được bà đã uống thuốc hay chưa",
+    "item": "복약 관련 관찰",
+    "value": "NOT_CONFIRMED",
+    "meal_time": null,
+    "confidence": 0.911,
+    "status": "ok",
+    "evidence_words": [
+     "chưa",
+     "chưa"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "점심 식사 절반 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "무릎 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "복약 여부 미확인(작성자가 확인하지 못함).",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "무릎 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 여부 미확인 — 담당자가 확인 후 기록 (AI는 복용 여부를 채우지 않음)",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-vi-02",
+  "lang": "vi",
+  "input": "10h den nha. ba an het com trua. ba noi dau lung. toi giup ba tam",
+  "masked": "10h den nha. ba an het com trua. ba noi dau lung. toi giup ba tam",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "10h den nha",
+    "item": "방문 시점",
+    "value": "10:00",
+    "meal_time": null,
+    "confidence": 0.796,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "ba an het com trua",
+    "item": "식사",
+    "value": "ALL",
+    "meal_time": "LUNCH",
+    "confidence": 0.947,
+    "status": "ok",
+    "evidence_words": [
+     "het",
+     "an"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "ba noi dau lung",
+    "item": "불편감 표현",
+    "value": "BACK",
+    "meal_time": null,
+    "confidence": 0.897,
+    "status": "ok",
+    "evidence_words": [
+     "lung",
+     "dau"
+    ]
+   },
+   {
+    "n": 4,
+    "text": "toi giup ba tam",
+    "item": "제공한 지원",
+    "value": "BATH",
+    "meal_time": null,
+    "confidence": 0.915,
+    "status": "ok",
+    "evidence_words": [
+     "giup",
+     "tam"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "10:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "목욕·세면 지원 제공.",
+    "source_clauses": [
+     4
+    ]
+   },
+   {
+    "text": "점심 식사 전량 섭취 관찰.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "허리·등 불편감을 본인이 표현함.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "허리·등 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 4
+  }
+ },
+ {
+  "id": "F-vi-03",
+  "lang": "vi",
+  "input": "Đêm qua ông tỉnh dậy mấy lần. Sáng nay ông cáu gắt và không chịu uống thuốc.",
+  "masked": "Đêm qua ông tỉnh dậy mấy lần. Sáng nay ông cáu gắt và không chịu uống thuốc.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Đêm qua ông tỉnh dậy mấy lần",
+    "item": "수면",
+    "value": "WOKE",
+    "meal_time": null,
+    "confidence": 0.936,
+    "status": "ok",
+    "evidence_words": [
+     "tỉnh",
+     "dậy"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Sáng nay ông cáu gắt",
+    "item": "정서·의사소통",
+    "value": "AGITATED",
+    "meal_time": null,
+    "confidence": 0.786,
+    "status": "ok",
+    "evidence_words": [
+     "gắt",
+     "cáu"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "không chịu uống thuốc",
+    "item": "복약 관련 관찰",
+    "value": "REFUSED",
+    "meal_time": null,
+    "confidence": 0.899,
+    "status": "ok",
+    "evidence_words": [
+     "thuốc",
+     "chịu"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "수면: 밤중 여러 차례 깸.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "복약 거부 관찰.",
+    "source_clauses": [
+     3
+    ]
+   },
+   {
+    "text": "정서: 불안·초조 또는 화냄(관찰).",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 거부 관찰 — 기관 절차에 따라 담당자에게 보고",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-vi-04",
+  "lang": "vi",
+  "input": "Bà Lan bị ngã trong phòng tắm lúc 3 giờ chiều. Tôi đã đỡ bà dậy. Bà kêu đau chân.",
+  "masked": "Bà ○○ bị ngã trong phòng tắm lúc 3 giờ chiều. Tôi đã đỡ bà dậy. Bà kêu đau chân.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Bà ○○ bị ngã trong phòng tắm lúc 3 giờ chiều",
+    "item": "특이사항(사건)",
+    "value": "FALL",
+    "meal_time": null,
+    "confidence": 0.206,
+    "status": "hold",
+    "evidence_words": [
+     "ngã",
+     "bị"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Tôi đã đỡ bà dậy",
+    "item": "제공한 지원",
+    "value": "WALK",
+    "meal_time": null,
+    "confidence": 0.661,
+    "status": "ok",
+    "evidence_words": [
+     "đỡ",
+     "dậy"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Bà kêu đau chân",
+    "item": "불편감 표현",
+    "value": "LEG",
+    "meal_time": null,
+    "confidence": 0.851,
+    "status": "ok",
+    "evidence_words": [
+     "chân",
+     "đau"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "이동·보행 지원 제공.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "다리 불편감을 본인이 표현함.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ① 직접 확인",
+    "src": [
+     1
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "다리 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 1,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-vi-05",
+  "lang": "vi",
+  "input": "Bà bị tiêu chảy hai lần. Bà chỉ ăn vài thìa cháo buổi tối.",
+  "masked": "Bà bị tiêu chảy hai lần. Bà chỉ ăn vài thìa cháo buổi tối.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Bà bị tiêu chảy hai lần",
+    "item": "배변·배뇨",
+    "value": "LOOSE",
+    "meal_time": null,
+    "confidence": 0.84,
+    "status": "ok",
+    "evidence_words": [
+     "tiêu",
+     "chảy"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Bà chỉ ăn vài thìa cháo buổi tối",
+    "item": "식사",
+    "value": "LITTLE",
+    "meal_time": "DINNER",
+    "confidence": 0.568,
+    "status": "ok",
+    "evidence_words": [
+     "ăn",
+     "thìa"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "저녁 식사 소량 섭취 관찰.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "배변·배뇨: 묽은 변.",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "식사",
+    "text": "'조금' 등 표현만 있음 — 실제 섭취량(정량) 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-ne-01",
+  "lang": "ne",
+  "input": "हजुरआमाले दिउँसोको खाना आधा खानुभयो र घुँडा दुख्यो भन्नुभयो। औषधि खानुभयो कि भएन जाँच गर्न सकिनँ।",
+  "masked": "हजुरआमाले दिउँसोको खाना आधा खानुभयो र घुँडा दुख्यो भन्नुभयो। औषधि खानुभयो कि भएन जाँच गर्न सकिनँ।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "हजुरआमाले दिउँसोको खाना आधा खानुभयो",
+    "item": "식사",
+    "value": "HALF",
+    "meal_time": "LUNCH",
+    "confidence": 0.877,
+    "status": "ok",
+    "evidence_words": [
+     "आधा",
+     "खानुभयो"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "घुँडा दुख्यो भन्नुभयो",
+    "item": "불편감 표현",
+    "value": "KNEE",
+    "meal_time": null,
+    "confidence": 0.843,
+    "status": "ok",
+    "evidence_words": [
+     "घुँडा",
+     "भन्नुभयो"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "औषधि खानुभयो कि भएन जाँच गर्न सकिनँ",
+    "item": "복약 관련 관찰",
+    "value": "NOT_CONFIRMED",
+    "meal_time": null,
+    "confidence": 0.845,
+    "status": "ok",
+    "evidence_words": [
+     "औषधि",
+     "सकिनँ"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "점심 식사 절반 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "무릎 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "복약 여부 미확인(작성자가 확인하지 못함).",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "무릎 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 여부 미확인 — 담당자가 확인 후 기록 (AI는 복용 여부를 채우지 않음)",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-ne-02",
+  "lang": "ne",
+  "input": "बिहान ९ बजे पुगेँ। हजुरबुबालाई नुहाउन सहयोग गरेँ। हजुरबुबा राति राम्ररी सुत्नुभयो।",
+  "masked": "बिहान ९ बजे पुगेँ। हजुरबुबालाई नुहाउन सहयोग गरेँ। हजुरबुबा राति राम्ररी सुत्नुभयो।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "बिहान ९ बजे पुगेँ",
+    "item": "방문 시점",
+    "value": "09:00",
+    "meal_time": null,
+    "confidence": 0.96,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "हजुरबुबालाई नुहाउन सहयोग गरेँ",
+    "item": "제공한 지원",
+    "value": "BATH",
+    "meal_time": null,
+    "confidence": 0.78,
+    "status": "ok",
+    "evidence_words": [
+     "नुहाउन",
+     "सहयोग"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "हजुरबुबा राति राम्ररी सुत्नुभयो",
+    "item": "수면",
+    "value": "GOOD",
+    "meal_time": null,
+    "confidence": 0.912,
+    "status": "ok",
+    "evidence_words": [
+     "सुत्नुभयो",
+     "राम्ररी"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "09:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "목욕·세면 지원 제공.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "수면: 잘 주무심(본인·관찰).",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-ne-03",
+  "lang": "ne",
+  "input": "हजुरआमा आज उदास देखिनुभयो। बेलुकाको खाना खान मान्नुभएन।",
+  "masked": "हजुरआमा आज उदास देखिनुभयो। बेलुकाको खाना खान मान्नुभएन।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "हजुरआमा आज उदास देखिनुभयो",
+    "item": "정서·의사소통",
+    "value": "LOW",
+    "meal_time": null,
+    "confidence": 0.796,
+    "status": "ok",
+    "evidence_words": [
+     "उदास",
+     "देखिनुभयो"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "बेलुकाको खाना खान मान्नुभएन",
+    "item": "식사",
+    "value": "NONE",
+    "meal_time": "DINNER",
+    "confidence": 0.934,
+    "status": "ok",
+    "evidence_words": [
+     "मान्नुभएन",
+     "खाना"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "저녁 식사 섭취 안 함 관찰.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "정서: 기운 없음·말수 적음(관찰).",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-ne-04",
+  "lang": "ne",
+  "input": "हजुरआमा उठ्दा लरखराउनुभयो। टाउको दुख्यो भन्नुभयो। औषधि समयमै खानुभयो।",
+  "masked": "हजुरआमा उठ्दा लरखराउनुभयो। टाउको दुख्यो भन्नुभयो। औषधि समयमै खानुभयो।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "हजुरआमा उठ्दा लरखराउनुभयो",
+    "item": "특이사항(사건)",
+    "value": "NEAR_FALL",
+    "meal_time": null,
+    "confidence": 0.89,
+    "status": "ok",
+    "evidence_words": [
+     "लरखराउनुभयो",
+     "उठ्दा"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "टाउको दुख्यो भन्नुभयो",
+    "item": "불편감 표현",
+    "value": "HEAD",
+    "meal_time": null,
+    "confidence": 0.769,
+    "status": "ok",
+    "evidence_words": [
+     "टाउको",
+     "भन्नुभयो"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "औषधि समयमै खानुभयो",
+    "item": "복약 관련 관찰",
+    "value": "TAKEN",
+    "meal_time": null,
+    "confidence": 0.768,
+    "status": "ok",
+    "evidence_words": [
+     "औषधि",
+     "खानुभयो"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "머리 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "복용 관찰됨.",
+    "source_clauses": [
+     3
+    ]
+   },
+   {
+    "text": "특이사항: 넘어질 뻔함 원문 기재.",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "머리 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   }
+  ],
+  "alerts": [
+   {
+    "text": "넘어질 뻔함 원문 기재 — 기관 사고보고 절차 대상인지 담당자가 즉시 판단",
+    "src": [
+     1
+    ]
+   }
+  ],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-ne-05",
+  "lang": "ne",
+  "input": "हरेक दुई घण्टामा सुताइ फेरिदिएँ। आज दिसा गर्नुभएन।",
+  "masked": "हरेक दुई घण्टामा सुताइ फेरिदिएँ। आज दिसा गर्नुभएन।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "हरेक दुई घण्टामा सुताइ फेरिदिएँ",
+    "item": "제공한 지원",
+    "value": "REPOSITION",
+    "meal_time": null,
+    "confidence": 0.845,
+    "status": "ok",
+    "evidence_words": [
+     "फेरिदिएँ",
+     "सुताइ"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "आज दिसा गर्नुभएन",
+    "item": "배변·배뇨",
+    "value": "NONE",
+    "meal_time": null,
+    "confidence": 0.877,
+    "status": "ok",
+    "evidence_words": [
+     "गर्नुभएन",
+     "दिसा"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "체위 변경 제공.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "배변·배뇨: 배변·배뇨 없음 또는 적음.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-id-01",
+  "lang": "id",
+  "input": "Nenek makan setengah porsi makan siang dan bilang lututnya sakit. Saya belum sempat memastikan obatnya sudah diminum.",
+  "masked": "Nenek makan setengah porsi makan siang dan bilang lututnya sakit. Saya belum sempat memastikan obatnya sudah diminum.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Nenek makan setengah porsi makan siang",
+    "item": "식사",
+    "value": "HALF",
+    "meal_time": "LUNCH",
+    "confidence": 0.946,
+    "status": "ok",
+    "evidence_words": [
+     "setengah",
+     "porsi"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "bilang lututnya sakit",
+    "item": "불편감 표현",
+    "value": "KNEE",
+    "meal_time": null,
+    "confidence": 0.688,
+    "status": "ok",
+    "evidence_words": [
+     "lututnya",
+     "sakit"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Saya belum sempat memastikan obatnya sudah diminum",
+    "item": "복약 관련 관찰",
+    "value": "NOT_CONFIRMED",
+    "meal_time": null,
+    "confidence": 0.909,
+    "status": "ok",
+    "evidence_words": [
+     "belum",
+     "obatnya"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "점심 식사 절반 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "무릎 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "복약 여부 미확인(작성자가 확인하지 못함).",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "무릎 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 여부 미확인 — 담당자가 확인 후 기록 (AI는 복용 여부를 채우지 않음)",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-id-02",
+  "lang": "id",
+  "input": "Tiba pukul 14.00. Saya bantu Kakek ganti baju. Kakek tidur siang nyenyak.",
+  "masked": "Tiba pukul 14.00. Saya bantu Kakek ganti baju. Kakek tidur siang nyenyak.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Tiba pukul 14.00",
+    "item": "방문 시점",
+    "value": "14:00",
+    "meal_time": null,
+    "confidence": 0.99,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "Saya bantu Kakek ganti baju",
+    "item": "제공한 지원",
+    "value": "DRESS",
+    "meal_time": null,
+    "confidence": 0.895,
+    "status": "ok",
+    "evidence_words": [
+     "baju",
+     "ganti"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Kakek tidur siang nyenyak",
+    "item": "수면",
+    "value": "POOR",
+    "meal_time": null,
+    "confidence": 0.483,
+    "status": "hold",
+    "evidence_words": [
+     "tidur",
+     "Kakek"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "14:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "옷 갈아입기 지원 제공.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ③ 직접 확인",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 1,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-id-03",
+  "lang": "id",
+  "input": "Oma gelisah terus mencari anaknya. Oma tidak mau minum obat sore ini.",
+  "masked": "Oma gelisah terus mencari anaknya. Oma tidak mau minum obat sore ini.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Oma gelisah terus mencari anaknya",
+    "item": "정서·의사소통",
+    "value": "AGITATED",
+    "meal_time": null,
+    "confidence": 0.885,
+    "status": "ok",
+    "evidence_words": [
+     "gelisah",
+     "anaknya"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Oma tidak mau minum obat sore ini",
+    "item": "복약 관련 관찰",
+    "value": "REFUSED",
+    "meal_time": null,
+    "confidence": 0.791,
+    "status": "ok",
+    "evidence_words": [
+     "obat",
+     "minum"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "복약 거부 관찰.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "정서: 불안·초조 또는 화냄(관찰).",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 거부 관찰 — 기관 절차에 따라 담당자에게 보고",
+    "src": [
+     2
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-id-04",
+  "lang": "id",
+  "input": "Nenek Siti jatuh dari tempat tidur. Nenek mengeluh pinggang sakit. Nomor anak 0812-3456-7890.",
+  "masked": "Nenek ○○ jatuh dari tempat tidur. Nenek mengeluh pinggang sakit. Nomor anak [전화번호].",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Nenek ○○ jatuh dari tempat tidur",
+    "item": "특이사항(사건)",
+    "value": "FALL",
+    "meal_time": null,
+    "confidence": 0.906,
+    "status": "ok",
+    "evidence_words": [
+     "jatuh",
+     "tempat"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Nenek mengeluh pinggang sakit",
+    "item": "불편감 표현",
+    "value": "BACK",
+    "meal_time": null,
+    "confidence": 0.89,
+    "status": "ok",
+    "evidence_words": [
+     "pinggang",
+     "sakit"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Nomor anak [전화번호]",
+    "item": "식사",
+    "value": "NONE",
+    "meal_time": "UNSPEC",
+    "confidence": 0.276,
+    "status": "hold",
+    "evidence_words": [
+     "anak"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "허리·등 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "특이사항: 넘어짐(낙상) 원문 기재.",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ③ 직접 확인",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "허리·등 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [
+   {
+    "text": "넘어짐(낙상) 원문 기재 — 기관 사고보고 절차 대상인지 담당자가 즉시 판단",
+    "src": [
+     1
+    ]
+   }
+  ],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 1,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-id-05",
+  "lang": "id",
+  "input": "Saya menyuapi Nenek. Nenek cuma makan beberapa sendok bubur.",
+  "masked": "Saya menyuapi Nenek. Nenek cuma makan beberapa sendok bubur.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Saya menyuapi Nenek",
+    "item": "제공한 지원",
+    "value": "MEAL_ASSIST",
+    "meal_time": null,
+    "confidence": 0.836,
+    "status": "ok",
+    "evidence_words": [
+     "menyuapi",
+     "Saya"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Nenek cuma makan beberapa sendok bubur",
+    "item": "식사",
+    "value": "LITTLE",
+    "meal_time": "UNSPEC",
+    "confidence": 0.532,
+    "status": "ok",
+    "evidence_words": [
+     "sendok",
+     "beberapa"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "식사 보조(떠먹임 등) 제공.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "식사 소량 섭취 관찰.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "식사",
+    "text": "'조금' 등 표현만 있음 — 실제 섭취량(정량) 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "식사",
+    "text": "어느 끼니인지 기재되지 않음 — 시점 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-uz-01",
+  "lang": "uz",
+  "input": "Buvi tushlikning yarmini yedi va tizzasi og'riyotganini aytdi. Dori ichganini tekshira olmadim.",
+  "masked": "Buvi tushlikning yarmini yedi va tizzasi og'riyotganini aytdi. Dori ichganini tekshira olmadim.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Buvi tushlikning yarmini yedi",
+    "item": "식사",
+    "value": "HALF",
+    "meal_time": "LUNCH",
+    "confidence": 0.959,
+    "status": "ok",
+    "evidence_words": [
+     "yarmini",
+     "tushlikning"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "tizzasi og'riyotganini aytdi",
+    "item": "불편감 표현",
+    "value": "KNEE",
+    "meal_time": null,
+    "confidence": 0.853,
+    "status": "ok",
+    "evidence_words": [
+     "tizzasi",
+     "og'riyotganini"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Dori ichganini tekshira olmadim",
+    "item": "복약 관련 관찰",
+    "value": "NOT_CONFIRMED",
+    "meal_time": null,
+    "confidence": 0.934,
+    "status": "ok",
+    "evidence_words": [
+     "ichganini",
+     "olmadim"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "점심 식사 절반 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "무릎 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "복약 여부 미확인(작성자가 확인하지 못함).",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "무릎 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 여부 미확인 — 담당자가 확인 후 기록 (AI는 복용 여부를 채우지 않음)",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-uz-02",
+  "lang": "uz",
+  "input": "Soat 9 da keldim. Bobo bilan hovlida sayr qildik. Bobo nonushtani to'liq yedi.",
+  "masked": "Soat 9 da keldim. Bobo bilan hovlida sayr qildik. Bobo nonushtani to'liq yedi.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Soat 9 da keldim",
+    "item": "방문 시점",
+    "value": "09:00",
+    "meal_time": null,
+    "confidence": 0.98,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "Bobo bilan hovlida sayr qildik",
+    "item": "제공한 지원",
+    "value": "WALK",
+    "meal_time": null,
+    "confidence": 0.762,
+    "status": "ok",
+    "evidence_words": [
+     "qildik",
+     "sayr"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Bobo nonushtani to'liq yedi",
+    "item": "식사",
+    "value": "ALL",
+    "meal_time": "BREAKFAST",
+    "confidence": 0.943,
+    "status": "ok",
+    "evidence_words": [
+     "to'liq",
+     "yedi"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "09:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "이동·보행 지원 제공.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "아침 식사 전량 섭취 관찰.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "F-uz-03",
+  "lang": "uz",
+  "input": "Buvi kechasi yaxshi uxlay olmadi. Bugun xafa ko'rindi.",
+  "masked": "Buvi kechasi yaxshi uxlay olmadi. Bugun xafa ko'rindi.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Buvi kechasi yaxshi uxlay olmadi",
+    "item": "수면",
+    "value": "POOR",
+    "meal_time": null,
+    "confidence": 0.734,
+    "status": "ok",
+    "evidence_words": [
+     "olmadi",
+     "uxlay"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Bugun xafa ko'rindi",
+    "item": "정서·의사소통",
+    "value": "LOW",
+    "meal_time": null,
+    "confidence": 0.879,
+    "status": "ok",
+    "evidence_words": [
+     "xafa",
+     "ko'rindi"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "수면: 잠을 잘 못 주무심.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "정서: 기운 없음·말수 적음(관찰).",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-uz-04",
+  "lang": "uz",
+  "input": "Buvi o'rnidan turganda gandiraklab ketdi. Boshi og'riyapti dedi.",
+  "masked": "Buvi o'rnidan turganda gandiraklab ketdi. Boshi og'riyapti dedi.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Buvi o'rnidan turganda gandiraklab ketdi",
+    "item": "특이사항(사건)",
+    "value": "NEAR_FALL",
+    "meal_time": null,
+    "confidence": 0.954,
+    "status": "ok",
+    "evidence_words": [
+     "gandiraklab",
+     "turganda"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Boshi og'riyapti dedi",
+    "item": "불편감 표현",
+    "value": "HEAD",
+    "meal_time": null,
+    "confidence": 0.898,
+    "status": "ok",
+    "evidence_words": [
+     "Boshi",
+     "og'riyapti"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "머리 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "특이사항: 넘어질 뻔함 원문 기재.",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "머리 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [
+   {
+    "text": "넘어질 뻔함 원문 기재 — 기관 사고보고 절차 대상인지 담당자가 즉시 판단",
+    "src": [
+     1
+    ]
+   }
+  ],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "F-uz-05",
+  "lang": "uz",
+  "input": "Buvining ichi suyuq keldi. Dorini vaqtida ichdi.",
+  "masked": "Buvining ichi suyuq keldi. Dorini vaqtida ichdi.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Buvining ichi suyuq keldi",
+    "item": "배변·배뇨",
+    "value": "LOOSE",
+    "meal_time": null,
+    "confidence": 0.856,
+    "status": "ok",
+    "evidence_words": [
+     "suyuq",
+     "ichi"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Dorini vaqtida ichdi",
+    "item": "복약 관련 관찰",
+    "value": "TAKEN",
+    "meal_time": null,
+    "confidence": 0.818,
+    "status": "ok",
+    "evidence_words": [
+     "ichdi",
+     "Dorini"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "복용 관찰됨.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "배변·배뇨: 묽은 변.",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-ko-01",
+  "lang": "ko",
+  "input": "오후 1시 방문. 점심은 반 그릇 정도 드셨어요. 어깨가 아프다고 하셔서 기관에 알리겠다고 말씀드림.",
+  "masked": "오후 1시 방문. 점심은 반 그릇 정도 드셨어요. 어깨가 아프다고 하셔서 기관에 알리겠다고 말씀드림.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "오후 1시 방문",
+    "item": "방문 시점",
+    "value": "13:00",
+    "meal_time": null,
+    "confidence": 0.986,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "점심은 반 그릇 정도 드셨어요",
+    "item": "식사",
+    "value": "HALF",
+    "meal_time": "LUNCH",
+    "confidence": 0.912,
+    "status": "ok",
+    "evidence_words": [
+     "정도",
+     "반"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "어깨가 아프다고 하셔서",
+    "item": "불편감 표현",
+    "value": "SHOULDER",
+    "meal_time": null,
+    "confidence": 0.874,
+    "status": "ok",
+    "evidence_words": [
+     "어깨가",
+     "아프다고"
+    ]
+   },
+   {
+    "n": 4,
+    "text": "기관에 알리겠다고 말씀드림",
+    "item": "제공한 지원",
+    "value": "REPOSITION",
+    "meal_time": null,
+    "confidence": 0.229,
+    "status": "hold",
+    "evidence_words": [
+     "말씀드림",
+     "알리겠다고"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "13:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "점심 식사 절반 섭취 관찰.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "어깨 불편감을 본인이 표현함.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ④ 직접 확인",
+    "src": [
+     4
+    ]
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "어깨 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 1,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "B-ko-02",
+  "lang": "ko",
+  "input": "어르신이 오늘따라 불안해하시며 딸을 계속 찾으심. 약은 안 드시겠다고 하심.",
+  "masked": "어르신이 오늘따라 불안해하시며 딸을 계속 찾으심. 약은 안 드시겠다고 하심.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "어르신이 오늘따라 불안해하시며",
+    "item": "정서·의사소통",
+    "value": "AGITATED",
+    "meal_time": null,
+    "confidence": 0.55,
+    "status": "hold",
+    "evidence_words": [
+     "불안해하시며"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "딸을 계속 찾으심",
+    "item": "정서·의사소통",
+    "value": "GOOD",
+    "meal_time": null,
+    "confidence": 0.35,
+    "status": "hold",
+    "evidence_words": [
+     "찾으심",
+     "계속"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "약은 안 드시겠다고 하심",
+    "item": "복약 관련 관찰",
+    "value": "REFUSED",
+    "meal_time": null,
+    "confidence": 0.812,
+    "status": "ok",
+    "evidence_words": [
+     "드시겠다고",
+     "안"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "복약 거부 관찰.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ① 직접 확인",
+    "src": [
+     1
+    ]
+   },
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ② 직접 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 거부 관찰 — 기관 절차에 따라 담당자에게 보고",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 2,
+   "sentences": 1
+  }
+ },
+ {
+  "id": "B-ko-03",
+  "lang": "ko",
+  "input": "침대 시트 갈고 방 정리함. 밤새 여러 번 깨셨다고 하심. 묽은 변 2회.",
+  "masked": "침대 시트 갈고 방 정리함. 밤새 여러 번 깨셨다고 하심. 묽은 변 2회.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "침대 시트 갈고 방 정리함",
+    "item": "제공한 지원",
+    "value": "CLEAN",
+    "meal_time": null,
+    "confidence": 0.689,
+    "status": "ok",
+    "evidence_words": [
+     "정리함",
+     "침대"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "밤새 여러 번 깨셨다고 하심",
+    "item": "수면",
+    "value": "WOKE",
+    "meal_time": null,
+    "confidence": 0.73,
+    "status": "ok",
+    "evidence_words": [
+     "여러",
+     "번"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "묽은 변 2회",
+    "item": "배변·배뇨",
+    "value": "LOOSE",
+    "meal_time": null,
+    "confidence": 0.872,
+    "status": "ok",
+    "evidence_words": [
+     "묽은",
+     "변"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "환경 정리·세탁 제공.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "수면: 밤중 여러 차례 깸.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "배변·배뇨: 묽은 변.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "B-vi-01",
+  "lang": "vi",
+  "input": "Hôm nay ông ăn gần hết bữa sáng. Ông kêu đau bụng một chút.",
+  "masked": "Hôm nay ông ăn gần hết bữa sáng. Ông kêu đau bụng một chút.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Hôm nay ông ăn gần hết bữa sáng",
+    "item": "식사",
+    "value": "MOST",
+    "meal_time": "BREAKFAST",
+    "confidence": 0.933,
+    "status": "ok",
+    "evidence_words": [
+     "gần",
+     "hết"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Ông kêu đau bụng một chút",
+    "item": "불편감 표현",
+    "value": "STOMACH",
+    "meal_time": null,
+    "confidence": 0.852,
+    "status": "ok",
+    "evidence_words": [
+     "bụng",
+     "đau"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "아침 식사 대부분 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "배 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "배 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-vi-02",
+  "lang": "vi",
+  "input": "Toi giup ba thay quan ao. Ba vui ve, hat theo radio. Ba da uong thuoc.",
+  "masked": "Toi giup ba thay quan ao. Ba vui ve, hat theo radio. Ba da uong thuoc.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Toi giup ba thay quan ao",
+    "item": "제공한 지원",
+    "value": "DRESS",
+    "meal_time": null,
+    "confidence": 0.95,
+    "status": "ok",
+    "evidence_words": [
+     "quan",
+     "thay"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Ba vui ve",
+    "item": "정서·의사소통",
+    "value": "GOOD",
+    "meal_time": null,
+    "confidence": 0.964,
+    "status": "ok",
+    "evidence_words": [
+     "vui",
+     "ve"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "hat theo radio",
+    "item": "제공한 지원",
+    "value": "REPOSITION",
+    "meal_time": null,
+    "confidence": 0.404,
+    "status": "hold",
+    "evidence_words": [
+     "theo",
+     "radio"
+    ]
+   },
+   {
+    "n": 4,
+    "text": "Ba da uong thuoc",
+    "item": "복약 관련 관찰",
+    "value": "TAKEN",
+    "meal_time": null,
+    "confidence": 0.909,
+    "status": "ok",
+    "evidence_words": [
+     "thuoc",
+     "uong"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "옷 갈아입기 지원 제공.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "복용 관찰됨.",
+    "source_clauses": [
+     4
+    ]
+   },
+   {
+    "text": "정서: 기분 좋아 보임(관찰).",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ③ 직접 확인",
+    "src": [
+     3
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 1,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "B-vi-03",
+  "lang": "vi",
+  "input": "Đến lúc 8 giờ. Bà suýt ngã khi đứng dậy từ ghế.",
+  "masked": "Đến lúc 8 giờ. Bà suýt ngã khi đứng dậy từ ghế.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Đến lúc 8 giờ",
+    "item": "방문 시점",
+    "value": "08:00",
+    "meal_time": null,
+    "confidence": 0.984,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "Bà suýt ngã khi đứng dậy từ ghế",
+    "item": "특이사항(사건)",
+    "value": "NEAR_FALL",
+    "meal_time": null,
+    "confidence": 0.826,
+    "status": "ok",
+    "evidence_words": [
+     "suýt",
+     "ngã"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "08:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "특이사항: 넘어질 뻔함 원문 기재.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [
+   {
+    "text": "넘어질 뻔함 원문 기재 — 기관 사고보고 절차 대상인지 담당자가 즉시 판단",
+    "src": [
+     2
+    ]
+   }
+  ],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-ne-01",
+  "lang": "ne",
+  "input": "हजुरबुबाले बेलुकाको खाना सबै खानुभयो। हजुरबुबा आज खुसी देखिनुभयो।",
+  "masked": "हजुरबुबाले बेलुकाको खाना सबै खानुभयो। हजुरबुबा आज खुसी देखिनुभयो।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "हजुरबुबाले बेलुकाको खाना सबै खानुभयो",
+    "item": "식사",
+    "value": "ALL",
+    "meal_time": "DINNER",
+    "confidence": 0.873,
+    "status": "ok",
+    "evidence_words": [
+     "सबै",
+     "खानुभयो"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "हजुरबुबा आज खुसी देखिनुभयो",
+    "item": "정서·의사소통",
+    "value": "GOOD",
+    "meal_time": null,
+    "confidence": 0.829,
+    "status": "ok",
+    "evidence_words": [
+     "खुसी",
+     "देखिनुभयो"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "저녁 식사 전량 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "정서: 기분 좋아 보임(관찰).",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-ne-02",
+  "lang": "ne",
+  "input": "हजुरआमाले काँध दुख्यो भन्नुभयो। औषधि खाएको पक्का भएन।",
+  "masked": "हजुरआमाले काँध दुख्यो भन्नुभयो। औषधि खाएको पक्का भएन।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "हजुरआमाले काँध दुख्यो भन्नुभयो",
+    "item": "불편감 표현",
+    "value": "SHOULDER",
+    "meal_time": null,
+    "confidence": 0.774,
+    "status": "ok",
+    "evidence_words": [
+     "काँध",
+     "भन्नुभयो"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "औषधि खाएको पक्का भएन",
+    "item": "복약 관련 관찰",
+    "value": "NOT_CONFIRMED",
+    "meal_time": null,
+    "confidence": 0.825,
+    "status": "ok",
+    "evidence_words": [
+     "औषधि",
+     "भएन"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "어깨 불편감을 본인이 표현함.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "복약 여부 미확인(작성자가 확인하지 못함).",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "어깨 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     1
+    ]
+   },
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 여부 미확인 — 담당자가 확인 후 기록 (AI는 복용 여부를 채우지 않음)",
+    "src": [
+     2
+    ]
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-ne-03",
+  "lang": "ne",
+  "input": "दिउँसो २ बजे पुगेँ। हजुरआमालाई ह्वीलचेयरमा सार्न सहयोग गरेँ। पातलो दिसा गर्नुभयो।",
+  "masked": "दिउँसो २ बजे पुगेँ। हजुरआमालाई ह्वीलचेयरमा सार्न सहयोग गरेँ। पातलो दिसा गर्नुभयो।",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "दिउँसो २ बजे पुगेँ",
+    "item": "방문 시점",
+    "value": "14:00",
+    "meal_time": null,
+    "confidence": 0.961,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "हजुरआमालाई ह्वीलचेयरमा सार्न सहयोग गरेँ",
+    "item": "제공한 지원",
+    "value": "WALK",
+    "meal_time": null,
+    "confidence": 0.732,
+    "status": "ok",
+    "evidence_words": [
+     "ह्वीलचेयरमा",
+     "सहयोग"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "पातलो दिसा गर्नुभयो",
+    "item": "배변·배뇨",
+    "value": "LOOSE",
+    "meal_time": null,
+    "confidence": 0.572,
+    "status": "ok",
+    "evidence_words": [
+     "पातलो",
+     "दिसा"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "14:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "이동·보행 지원 제공.",
+    "source_clauses": [
+     2
+    ]
+   },
+   {
+    "text": "배변·배뇨: 묽은 변.",
+    "source_clauses": [
+     3
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "B-id-01",
+  "lang": "id",
+  "input": "Kakek hampir menghabiskan makan malam. Kakek bilang kepalanya pusing.",
+  "masked": "Kakek hampir menghabiskan makan malam. Kakek bilang kepalanya pusing.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Kakek hampir menghabiskan makan malam",
+    "item": "식사",
+    "value": "MOST",
+    "meal_time": "DINNER",
+    "confidence": 0.956,
+    "status": "ok",
+    "evidence_words": [
+     "hampir",
+     "menghabiskan"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Kakek bilang kepalanya pusing",
+    "item": "불편감 표현",
+    "value": "HEAD",
+    "meal_time": null,
+    "confidence": 0.364,
+    "status": "hold",
+    "evidence_words": [
+     "kepalanya",
+     "bilang"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "저녁 식사 대부분 섭취 관찰.",
+    "source_clauses": [
+     1
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "hold",
+    "field": "판단 보류",
+    "text": "AI가 항목을 확정하지 않음 — 원문 ② 직접 확인",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 1,
+   "sentences": 1
+  }
+ },
+ {
+  "id": "B-id-02",
+  "lang": "id",
+  "input": "Saya membantu Nenek mandi pagi. Nenek terlihat murung hari ini.",
+  "masked": "Saya membantu Nenek mandi pagi. Nenek terlihat murung hari ini.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Saya membantu Nenek mandi pagi",
+    "item": "제공한 지원",
+    "value": "BATH",
+    "meal_time": null,
+    "confidence": 0.728,
+    "status": "ok",
+    "evidence_words": [
+     "mandi",
+     "membantu"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Nenek terlihat murung hari ini",
+    "item": "정서·의사소통",
+    "value": "LOW",
+    "meal_time": null,
+    "confidence": 0.808,
+    "status": "ok",
+    "evidence_words": [
+     "murung",
+     "terlihat"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "목욕·세면 지원 제공.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "정서: 기운 없음·말수 적음(관찰).",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-id-03",
+  "lang": "id",
+  "input": "Datang jam 10. Nenek belum BAB sejak kemarin. Nenek sudah minum obat.",
+  "masked": "Datang jam 10. Nenek belum BAB sejak kemarin. Nenek sudah minum obat.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Datang jam 10",
+    "item": "방문 시점",
+    "value": "10:00",
+    "meal_time": null,
+    "confidence": 0.986,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "Nenek belum BAB sejak kemarin",
+    "item": "배변·배뇨",
+    "value": "NONE",
+    "meal_time": null,
+    "confidence": 0.886,
+    "status": "ok",
+    "evidence_words": [
+     "belum",
+     "BAB"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Nenek sudah minum obat",
+    "item": "복약 관련 관찰",
+    "value": "TAKEN",
+    "meal_time": null,
+    "confidence": 0.879,
+    "status": "ok",
+    "evidence_words": [
+     "minum",
+     "obat"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "10:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "복용 관찰됨.",
+    "source_clauses": [
+     3
+    ]
+   },
+   {
+    "text": "배변·배뇨: 배변·배뇨 없음 또는 적음.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ },
+ {
+  "id": "B-uz-01",
+  "lang": "uz",
+  "input": "Bobo kechki ovqatdan juda kam yedi. Bobo beli og'riyotganini aytdi.",
+  "masked": "Bobo kechki ovqatdan juda kam yedi. Bobo beli og'riyotganini aytdi.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Bobo kechki ovqatdan juda kam yedi",
+    "item": "식사",
+    "value": "UNSPEC",
+    "meal_time": "DINNER",
+    "confidence": 0.776,
+    "status": "ok",
+    "evidence_words": [
+     "yedi",
+     "juda"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Bobo beli og'riyotganini aytdi",
+    "item": "불편감 표현",
+    "value": "BACK",
+    "meal_time": null,
+    "confidence": 0.601,
+    "status": "ok",
+    "evidence_words": [
+     "og'riyotganini",
+     "beli"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "저녁 식사 섭취함(양 미기재) 관찰.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "허리·등 불편감을 본인이 표현함.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "check",
+    "field": "식사",
+    "text": "섭취량이 기재되지 않음 — 추정하지 않고 확인 필요",
+    "src": [
+     1
+    ]
+   },
+   {
+    "level": "check",
+    "field": "불편감",
+    "text": "허리·등 불편 — 지속 여부·정도를 다음 방문 시 확인하고 기관 절차에 따라 보고",
+    "src": [
+     2
+    ]
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-uz-02",
+  "lang": "uz",
+  "input": "Buvini cho'miltirdim. Buvi kechasi tinch uxladi.",
+  "masked": "Buvini cho'miltirdim. Buvi kechasi tinch uxladi.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Buvini cho'miltirdim",
+    "item": "제공한 지원",
+    "value": "BATH",
+    "meal_time": null,
+    "confidence": 0.957,
+    "status": "ok",
+    "evidence_words": [
+     "cho'miltirdim",
+     "Buvini"
+    ]
+   },
+   {
+    "n": 2,
+    "text": "Buvi kechasi tinch uxladi",
+    "item": "수면",
+    "value": "GOOD",
+    "meal_time": null,
+    "confidence": 0.928,
+    "status": "ok",
+    "evidence_words": [
+     "uxladi",
+     "tinch"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "목욕·세면 지원 제공.",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "수면: 잘 주무심(본인·관찰).",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "방문 시점",
+    "text": "원문에 방문 시각이 없음 — 작성자에게 확인",
+    "src": []
+   },
+   {
+    "level": "info",
+    "field": "복약",
+    "text": "복약 관련 기재 없음 — 해당 시 확인",
+    "src": []
+   }
+  ],
+  "alerts": [],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 2
+  }
+ },
+ {
+  "id": "B-uz-03",
+  "lang": "uz",
+  "input": "Soat 15:00 da keldim. Buvi hammomda yiqilib tushdi. Dori ichganini bilmadim.",
+  "masked": "Soat 15:00 da keldim. Buvi hammomda yiqilib tushdi. Dori ichganini bilmadim.",
+  "clauses": [
+   {
+    "n": 1,
+    "text": "Soat 15:00 da keldim",
+    "item": "방문 시점",
+    "value": "15:00",
+    "meal_time": null,
+    "confidence": 0.994,
+    "status": "ok",
+    "evidence_words": []
+   },
+   {
+    "n": 2,
+    "text": "Buvi hammomda yiqilib tushdi",
+    "item": "특이사항(사건)",
+    "value": "FALL",
+    "meal_time": null,
+    "confidence": 0.784,
+    "status": "ok",
+    "evidence_words": [
+     "yiqilib",
+     "tushdi"
+    ]
+   },
+   {
+    "n": 3,
+    "text": "Dori ichganini bilmadim",
+    "item": "복약 관련 관찰",
+    "value": "NOT_CONFIRMED",
+    "meal_time": null,
+    "confidence": 0.916,
+    "status": "ok",
+    "evidence_words": [
+     "bilmadim",
+     "ichganini"
+    ]
+   }
+  ],
+  "draft_ko": [
+   {
+    "text": "15:00 방문(작성자 기재).",
+    "source_clauses": [
+     1
+    ]
+   },
+   {
+    "text": "복약 여부 미확인(작성자가 확인하지 못함).",
+    "source_clauses": [
+     3
+    ]
+   },
+   {
+    "text": "특이사항: 넘어짐(낙상) 원문 기재.",
+    "source_clauses": [
+     2
+    ]
+   }
+  ],
+  "checks": [
+   {
+    "level": "check",
+    "field": "복약",
+    "text": "복약 여부 미확인 — 담당자가 확인 후 기록 (AI는 복용 여부를 채우지 않음)",
+    "src": [
+     3
+    ]
+   }
+  ],
+  "alerts": [
+   {
+    "text": "넘어짐(낙상) 원문 기재 — 기관 사고보고 절차 대상인지 담당자가 즉시 판단",
+    "src": [
+     2
+    ]
+   }
+  ],
+  "guard": {
+   "grounded": true,
+   "ungrounded": 0,
+   "blocked": [],
+   "holds": 0,
+   "sentences": 3
+  }
+ }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "carebridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "다국어 돌봄 관찰메모 → 근거 연결형 한국어 기록 초안 (온디바이스 AI)",
+  "scripts": {
+    "test": "node tests/test_engine.js",
+    "eval": "python3 eval/parity.py && node eval/evaluate.js && node eval/export_samples.js",
+    "build": "python3 tools/build_web.py",
+    "all": "python3 data/generate.py && python3 model/train.py && npm run eval && npm run build && npm test"
+  }
+}
